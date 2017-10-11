@@ -4,15 +4,15 @@ SEOTitle: 谢中朝的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: xiezhongzhao01@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 谢中朝的博客, xiezhongzhao, 谢中朝, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+keyword: "BY, BY Blog, 谢中朝的博客, xiezhongzhao, 谢中朝, Machine Learning, Deep learning, Computer Vision"
+url: "https://xiezhongzhao.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://xiezhongzhao.github.io/" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-XXZ-gentle.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
