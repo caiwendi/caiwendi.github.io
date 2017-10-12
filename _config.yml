@@ -21,9 +21,9 @@ RSS: false
 #RSS: feed.xml
 
 #categories_path: categories
-archive_path: archives
+#archive_path: archives
 
-BASE_PATH:
+#BASE_PATH:
 
 # weibo_username:     qiubaiying
 zhihu_username:     xiezhongzhao
@@ -44,9 +44,6 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-gems: [jekyll-sitemap]
-gems: [jekyll-feed]
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
