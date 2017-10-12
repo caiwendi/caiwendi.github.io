@@ -1,7 +1,15 @@
 ---
-layout: post
-title: Tensorflow入门(二)
+layout:     post                    # 使用的布局（不需要改）
+title:      Tensorflow           # 标题 
+subtitle:   Convolutional Neural Network #副标题
+date:       2017-02-06              # 时间
+author:     Brian                      # 作者
+header-img: img/post-bg-os-metro.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - Tensorflow
 ---
+
 # TensorFlow实现卷积神经网络
 
 学习<Tensorflow实战>个人笔记,共大家学习交流,欢迎拍砖  作者: 谢中朝

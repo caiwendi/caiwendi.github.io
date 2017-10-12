@@ -10,11 +10,6 @@ tags:                               #标签
     - Tensorflow
 ---
 
----
-layout: post
-title: tensorflow入门(一)
----
-
 # 1. Tensorflow学习笔记
 
 学习<Tensorflow实战>个人笔记,共大家学习交流,欢迎拍砖  作者: 谢中朝

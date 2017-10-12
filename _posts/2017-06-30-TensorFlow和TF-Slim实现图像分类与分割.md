@@ -1,3 +1,16 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      Tensorflow           # 标题 
+subtitle:   TF-Slim, image segmentation #副标题
+date:       2017-02-06              # 时间
+author:     Brian                      # 作者
+header-img: img/post-bg-os-metro.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - Tensorflow
+---
+
+
 *Tensorflow and TF-Slim | Jun 5, 2017*    
 *author : Xie Zhongzhao*
 
@@ -10,6 +23,7 @@
 
 
 ```python
+
 import sys
 import os
 
@@ -23,7 +37,9 @@ sys.path.append("/home/xzz/code/python_tensorflow/models-master/slim")
 
 
 ```python
+
 '''
+
 下载VGG-16模型,我们采用它来对图像做分类和分割,也可以选用其他占用内存较少的网络模型
 (例如,AlexNet)
 '''
