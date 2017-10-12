@@ -17,10 +17,13 @@ sidebar-avatar: /img/about-XXZ-gentle.jpeg      # use absolute URL, seeing it's 
 
 
 # SNS settings
-RSS: false
+#RSS: false
+RSS: feed.xml
 
 categories_path: categories
 archive_path: archives
+
+BASE_PATH:
 
 # weibo_username:     qiubaiying
 zhihu_username:     xiezhongzhao
