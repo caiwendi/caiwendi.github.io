@@ -5,7 +5,7 @@ header-img: img/post-bg-os-metro.jpg
 email: xiezhongzhao01@gmail.com
 description: "Every failure is leading towards success."
 keyword: "XXZ, XXZ Blog, 谢中朝的博客, xiezhongzhao, 谢中朝, Machine Learning, Deep learning, Computer Vision"
-url: "https://xiezhongzhao.github.io"          # your host, for absolute URL
+url: "http://xiezhongzhao.top"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/xiezhongzhao/xiezhongzhao.github.io" # you code repository
 
@@ -55,6 +55,7 @@ kramdown:
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
+url: "http://xiezhongzhao.top"
 disqus_username: Brian Thomas
 
 # 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
