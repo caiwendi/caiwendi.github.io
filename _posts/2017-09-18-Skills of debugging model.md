@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Kaggle Competition           # 标题 
 subtitle:   特征提升，模型正则化，模型检验，超参数搜索 #副标题
-date:       2017-02-06              # 时间
+date:       2017-09-18              # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档

@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Unsupervised Learning           # 标题 
 subtitle:   Dada Clustering #副标题
-date:       2017-02-06              # 时间
+date:       2017-09-17            # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-hacker.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档

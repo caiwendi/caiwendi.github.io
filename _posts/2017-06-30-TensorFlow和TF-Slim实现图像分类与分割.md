@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Tensorflow           # 标题 
 subtitle:   TF-Slim, image segmentation #副标题
-date:       2017-02-06              # 时间
+date:       2017-06-30              # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-os-metro.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
