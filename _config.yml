@@ -64,8 +64,6 @@ disqus_username: Brian Thomas
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
-
-
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 1f554301065d0e621e4352926d46b9b5
@@ -73,9 +71,6 @@ ba_track_id: 1f554301065d0e621e4352926d46b9b5
 # Google Analytics
 ga_track_id: 'UA-108002748-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto 
-
-
-
 
 
 # Featured Tags
