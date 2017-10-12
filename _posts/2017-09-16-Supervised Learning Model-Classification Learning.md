@@ -1,3 +1,14 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      Supervised Learning Model           # 标题 
+subtitle:   Classification Learning #副标题
+date:       2017-02-06              # 时间
+author:     Brian                      # 作者
+header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - Supervised Learning
+---
 
 # Supervised Learning Model-Classification Learning
 Author: Xie Zhong-zhao
