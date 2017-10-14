@@ -21,7 +21,6 @@ description: "Thinking will not overcome fear but action will."
     </a>
     <p class="post-meta">
          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-        <span id="busuanzi_container_page_pv">  view<span id="busuanzi_value_page_pv"></span>times
 </span>
 </span>
     </p>
@@ -45,5 +44,11 @@ description: "Thinking will not overcome fear but action will."
 </ul>
 {% endif %}
 
-本站总访问量<span id="busuanzi_value_site_pv"></span>次
-您是第<span id="busuanzi_value_site_uv"></span>个小伙伴
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<span id="busuanzi_value_page_pv"><i class="fa fa-spinner"></i></span> Hits
+
+<span id="busuanzi_container_site_pv" style='display:none'>
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+
+您是第<span id="busuanzi_value_site_uv"></span>个访问本站小伙伴
