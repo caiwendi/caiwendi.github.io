@@ -2,7 +2,7 @@
 layout: page
 description: "Thinking will not overcome fear but action will."
 ---
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
             
 
 {% for post in paginator.posts %}
@@ -22,7 +22,7 @@ description: "Thinking will not overcome fear but action will."
     </a>
     <p class="post-meta">
          Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-         <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        
 </span>
     </p>
 </div>
@@ -44,3 +44,5 @@ description: "Thinking will not overcome fear but action will."
     {% endif %}
 </ul>
 {% endif %}
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
