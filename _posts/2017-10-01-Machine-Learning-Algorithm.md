@@ -8,13 +8,6 @@ header-img: img/railway.jpg    #这篇文章标题背景图片
 catalog:    true                       # 是否归档
 tags:                                   #标签
           - Machine Learning Algorithm
-
----
-
-___
-
-
-
 <html>
 <head>
 <title>MathJax TeX Test Page</title>
@@ -25,8 +18,7 @@ ___
 </script>
 </head>
 <body>
-
-___
+---
 
 
 
