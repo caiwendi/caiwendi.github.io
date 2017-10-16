@@ -21,6 +21,9 @@ tags:                                   #标签
 </head>
 <body>
 
+
+
+
 ## 1. Gradient Descent Algorithm
 
 
@@ -38,6 +41,9 @@ $$(\lambda I-\hat{A})\frac{\partial \zeta}{\partial b_k}=\frac{\partial \zeta}{\
 Finally, the gradients of $\hat{A}$  are computed as
 
 $$\frac{\partial \zeta}{\partial \hat{A}}=\sum_{k}^{}\frac{\partial \zeta}{\partial b_k}\bigotimes \sum_{i\neq k}^{}x_i.$$
+
+
+
 
 ## 2. Logistic Regression Algorithm
 
