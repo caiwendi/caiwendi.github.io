@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
 title:     Machine Learning Algorithm           # 标题 
-subtitle:   Image segmentation, Convolutional Nets, G-CRF, Multi-Scale Prediction  #副标题
+subtitle:   Gradient Descent, Logistic Regression, Naive Bayes,  SVM   #副标题
 date:       2017-10-01             # 时间
 author:     Brian                      # 作者
 header-img: img/railway.jpg    #这篇文章标题背景图片
