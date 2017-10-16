@@ -20,8 +20,6 @@ http://jekyllrb.com/docs/configuration/#kramdown
 RSS: false
 #RSS: feed.xml
 
-<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 #categories_path: categories
 #archive_path: archives
 
