@@ -54,7 +54,14 @@ kramdown:
 
 
 
+# MathJax Support
+mathjax:
+​     enable: true
+​     per_page: true
+​     cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
 # 评论系统
+
 # Disqus settings（https://disqus.com/）
 disqus_username: xiezhongzhaoblog-1
 
