@@ -94,13 +94,6 @@ Dear professors, good morning/afternoon:
 20. That's all, thank you for listening.
 
 
-___
-
-![](http://ww1.sinaimg.cn/large/b4c0024fgy1fkjwbmeb3fj20hs2lwhaa.jpg)
-
-___
-
-![](http://ww1.sinaimg.cn/large/b4c0024fgy1fkjwc9ow8pj20hs4lo1kx.jpg)
 
 
 
