@@ -57,7 +57,7 @@ mathjax:
 ​     enable: true
 ​     per_page: true
 ​     cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
-<script type="text/javascript"  src="<https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML>"></script>
+
 # 评论系统
 
 # Disqus settings（https://disqus.com/）
