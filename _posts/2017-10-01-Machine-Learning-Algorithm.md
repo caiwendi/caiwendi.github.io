@@ -53,6 +53,20 @@ Finally, the gradients of $\hat{A}$  are computed as
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 <html>
 <head>
 <title>MathJax TeX Test Page</title>
@@ -63,6 +77,10 @@ Finally, the gradients of $\hat{A}$  are computed as
 </script>
 </head>
 <body>
+
+---
+
+
 
 
 
