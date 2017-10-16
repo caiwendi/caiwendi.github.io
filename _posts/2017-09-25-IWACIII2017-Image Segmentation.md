@@ -10,10 +10,6 @@ tags:                                   #标签
           - 研究方向
 ---
 
-<script 
-    src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-</script>
-
 ## 1、会议论文汇报PPT
 
 
