@@ -82,7 +82,7 @@ Dear professors, good morning/afternoon:
 8. In order to decrease the calculation time, we need to reduce the receptive field.  Look at the red rectangle, spatially subsampling (by simply extracting) the first FC layer to a 4×4 (or 3×3) spatial size.
 9. In order to obtain more low-dimensional features, the multi-scale method is used to improve the boundary position accuracy. The output and input image of each of the top four largest pooling layers are added to the two-layer multi-layer perceptron (MLP).
 10. Then, we introduce Gaussian conditional random field as the  post-processing  of semantic segmentation.
-11. In the post-processing of the whole semantic segmentation, we use the Gaussian conditional random field. We define the energy function of the conditional random field as the following form. To ensure that the global minimum condition is $ (A + \lambda I) x = B ​$ and the whole model convergence,  the gradient of A and B can be solved in terms of chaining rule.
+11. In the post-processing of the whole semantic segmentation, we use the Gaussian conditional random field. We define the energy function of the conditional random field as the following form. To ensure that the global minimum condition is $ (A + \lambda I) x = B $ and the whole model convergence,  the gradient of A and B can be solved in terms of chaining rule.
 12. Here we use another method to make the whole model converge faster. A Potts-type pairwise model is
     proposed to describe by the  following equation , the pairwise energy term is denoted for $ p_i$ pixel taking the $ l_i$ label, and  $ p_j$ pixel taking the $ l_j$ label.To derive the inference and gradient equations, the inference equation$ (A + λI)x = B$ is rewritten as Matrix form.
 13. And then through the chain derivation rule and a series of inferences, we can get  $ \hat {A} $  gradient.
@@ -93,6 +93,16 @@ Dear professors, good morning/afternoon:
 18. Finally, we summarize our research results.
 19. Our conclusions are divided into three aspects. First, controlling the receptive field size can decrease computation time and memory capacity without sacrificing performance; Second,  a multi-scale prediction method can increase the boundary localization accuracy; Finally, Gaussian conditional random fields can obtain object boundaries at a level of detail and produce accurate predictions and detailed segmentation maps;
 20. That's all, thank you for listening.
+
+
+___
+
+![](http://ww1.sinaimg.cn/large/b4c0024fgy1fkjwbmeb3fj20hs2lwhaa.jpg)
+
+![](http://ww1.sinaimg.cn/large/b4c0024fgy1fkjwc9ow8pj20hs4lo1kx.jpg)
+
+
+
 
 
 
