@@ -14,8 +14,6 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/about-XXZ-gentle.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-http://jekyllrb.com/docs/configuration/#kramdown
-
 # SNS settings
 RSS: false
 #RSS: feed.xml
