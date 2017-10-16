@@ -10,18 +10,6 @@ tags:                                   #标签
           - 研究方向
 ---
 
-<!DOCCTYPE html>
-<html>
-<head>
-<title>MathJax TeX Test Page</title>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-</head>
-<body>
-
 ## 1、会议论文汇报PPT
 
 
