@@ -93,7 +93,8 @@ Dear professors, good morning/afternoon:
 19. Our conclusions are divided into three aspects. First, controlling the receptive field size can decrease computation time and memory capacity without sacrificing performance; Second,  a multi-scale prediction method can increase the boundary localization accuracy; Finally, Gaussian conditional random fields can obtain object boundaries at a level of detail and produce accurate predictions and detailed segmentation maps;
 20. That's all, thank you for listening.
 
-<!DOCCTYPE html>
+
+
 <html>
 <head>
 <title>MathJax TeX Test Page</title>
