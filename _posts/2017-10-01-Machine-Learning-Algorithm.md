@@ -11,6 +11,17 @@ tags:                                   #标签
 
 ---
 
+<html>
+<head>
+<title>MathJax TeX Test Page</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+</head>
+<body>
+
 
 
 ## 1. Gradient Descent Algorithm
@@ -58,16 +69,7 @@ $$\frac{\partial \zeta}{\partial \hat{A}}=\sum_{k}^{}\frac{\partial \zeta}{\part
 
 
 
-<html>
-<head>
-<title>MathJax TeX Test Page</title>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-</head>
-<body>
+
 
 
 
