@@ -7,7 +7,7 @@ author:     Brian                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Supervised Learning
+    - Kaggle Competition
 ---
 
 # Supervised Learning Model-Classification Learning
@@ -124,8 +124,8 @@ print(classification_report(y_test,sgdc_y_predict,target_names=['benign','malign
       malignant       0.99      0.96      0.97        71
     
     avg / total       0.98      0.98      0.98       171
-    
-    
+
+​    
 
 ## 2. Support Vector Classification
 
@@ -202,8 +202,8 @@ print(classification_report(y_test,y_predict,target_names=digit.target_names.ast
               9       0.95      0.91      0.93        44
     
     avg / total       0.95      0.95      0.95       450
-    
-    
+
+​    
 
 ## 3. Naive Bayes
 
@@ -274,12 +274,12 @@ print(classification_report(y_test,y_predict,target_names=news.target_names))
       - ATI Graphics Ultra Pro
     
       - Any other high-performance VLB card
-    
-    
+
+
     Please post or email.  Thank you!
-    
+
       - Matt
-    
+
     -- 
         |  Matthew B. Lawson <------------> (mblawson@essex.ecn.uoknor.edu)  |   
       --+-- "Now I, Nebuchadnezzar, praise and exalt and glorify the King  --+-- 
@@ -311,8 +311,8 @@ print(classification_report(y_test,y_predict,target_names=news.target_names))
           talk.religion.misc       0.93      0.44      0.60       158
     
                  avg / total       0.86      0.84      0.82      4712
-    
-    
+
+​    
 
 ## 4. KNN
 
@@ -436,8 +436,8 @@ print(classification_report(y_test,y_predict,target_names=iris.target_names))
       virginica       1.00      0.79      0.88        19
     
     avg / total       0.92      0.89      0.90        38
-    
-    
+
+​    
 
 ## 5. Decision Tree
 
@@ -562,14 +562,14 @@ print(classification_report(y_predict,y_test,target_names=['died','survived']))
     dtypes: float64(1), object(2)
     memory usage: 30.9+ KB
     None
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\pandas\core\generic.py:3191: SettingWithCopyWarning: 
     A value is trying to be set on a copy of a slice from a DataFrame
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-    
+
 
     None
     <class 'pandas.core.frame.DataFrame'>
@@ -855,8 +855,8 @@ print(classification_report(y_predict,y_test,target_names=['died','survived']))
        survived       0.58      0.80      0.67        93
     
     avg / total       0.81      0.78      0.79       329
-    
-    
+
+​    
 
 ## 6. Ensemble Classification
 
@@ -944,7 +944,7 @@ print(classification_report(gbc_y_pred,y_test,target_names=['died','survived']))
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-    
+
 
     the accuracy of decision tree is 0.781155015198
                  precision    recall  f1-score   support
@@ -969,5 +969,5 @@ print(classification_report(gbc_y_pred,y_test,target_names=['died','survived']))
        survived       0.58      0.82      0.68        90
     
     avg / total       0.83      0.79      0.80       329
-    
-    
+
+​    

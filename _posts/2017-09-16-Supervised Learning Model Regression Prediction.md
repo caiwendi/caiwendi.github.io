@@ -7,7 +7,7 @@ author:     Brian                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Supervised Learning
+    - Kaggle Competition
 ---
 
 # Supervised Learning Model-Regression Prediction
@@ -113,7 +113,7 @@ print('the mean absolute error of SGDRegressor is',mean_absolute_error(ss_y.inve
 ```
 
     Boston House Prices dataset
-    
+
     Notes
     ------
     Data Set Characteristics:  
@@ -146,10 +146,10 @@ print('the mean absolute error of SGDRegressor is',mean_absolute_error(ss_y.inve
     
     This is a copy of UCI ML housing dataset.
     http://archive.ics.uci.edu/ml/datasets/Housing
-    
-    
+
+
     This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University.
-    
+
     The Boston house-price data of Harrison, D. and Rubinfeld, D.L. 'Hedonic
     prices and the demand for clean air', J. Environ. Economics & Management,
     vol.5, 81-102, 1978.   Used in Belsley, Kuh & Welsch, 'Regression diagnostics
@@ -168,7 +168,7 @@ print('the mean absolute error of SGDRegressor is',mean_absolute_error(ss_y.inve
     the max target value is 50.0
     the min target value is 5.0
     the average target value is 22.5328063241
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:583: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
@@ -176,7 +176,7 @@ print('the mean absolute error of SGDRegressor is',mean_absolute_error(ss_y.inve
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:646: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
-    
+
 
     the value of default measurement of LinearRegression is 0.6763403831
     the value of R-squared of LinearRegression is 0.6763403831
@@ -186,7 +186,7 @@ print('the mean absolute error of SGDRegressor is',mean_absolute_error(ss_y.inve
     the value of R-squared of SGDRegressor is 0.658690771038
     the mean squared error of SGDRegressor is 26.4655594599
     the mean absolute error of SGDRegressor is 3.50136123888
-    
+
 
 ## 2. SVM Regression
 
@@ -285,7 +285,7 @@ print("----------------------------------------------------")
 ```
 
     Boston House Prices dataset
-    
+
     Notes
     ------
     Data Set Characteristics:  
@@ -318,10 +318,10 @@ print("----------------------------------------------------")
     
     This is a copy of UCI ML housing dataset.
     http://archive.ics.uci.edu/ml/datasets/Housing
-    
-    
+
+
     This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University.
-    
+
     The Boston house-price data of Harrison, D. and Rubinfeld, D.L. 'Hedonic
     prices and the demand for clean air', J. Environ. Economics & Management,
     vol.5, 81-102, 1978.   Used in Belsley, Kuh & Welsch, 'Regression diagnostics
@@ -355,7 +355,7 @@ print("----------------------------------------------------")
     the mean square error of rbf SVR is 18.8885250008
     the mean absoluate error of rbf SVR is 2.60756329798
     ----------------------------------------------------
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:583: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
@@ -363,7 +363,7 @@ print("----------------------------------------------------")
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:646: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
-    
+
 
 ## 3. KNN Regression
 
@@ -443,7 +443,7 @@ print('the mean absolute error of distance-weighted KNeighborRegression',mean_ab
 ```
 
     Boston House Prices dataset
-    
+
     Notes
     ------
     Data Set Characteristics:  
@@ -476,10 +476,10 @@ print('the mean absolute error of distance-weighted KNeighborRegression',mean_ab
     
     This is a copy of UCI ML housing dataset.
     http://archive.ics.uci.edu/ml/datasets/Housing
-    
-    
+
+
     This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University.
-    
+
     The Boston house-price data of Harrison, D. and Rubinfeld, D.L. 'Hedonic
     prices and the demand for clean air', J. Environ. Economics & Management,
     vol.5, 81-102, 1978.   Used in Belsley, Kuh & Welsch, 'Regression diagnostics
@@ -506,7 +506,7 @@ print('the mean absolute error of distance-weighted KNeighborRegression',mean_ab
     R-square value of distance-weighted KNeighborRegression: 0.719758997016
     the mean squared error of distance-weighted KNeighborRegression: 21.7302501609
     the mean absolute error of distance-weighted KNeighborRegression 2.80505687851
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:583: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
@@ -514,7 +514,7 @@ print('the mean absolute error of distance-weighted KNeighborRegression',mean_ab
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:646: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
-    
+
 
 ## 4. Decision Tree Regressor
 
@@ -584,7 +584,7 @@ print('the mean absoluate error of DecisionTreeRegressor:',mean_absolute_error(s
 ```
 
     Boston House Prices dataset
-    
+
     Notes
     ------
     Data Set Characteristics:  
@@ -617,10 +617,10 @@ print('the mean absoluate error of DecisionTreeRegressor:',mean_absolute_error(s
     
     This is a copy of UCI ML housing dataset.
     http://archive.ics.uci.edu/ml/datasets/Housing
-    
-    
+
+
     This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University.
-    
+
     The Boston house-price data of Harrison, D. and Rubinfeld, D.L. 'Hedonic
     prices and the demand for clean air', J. Environ. Economics & Management,
     vol.5, 81-102, 1978.   Used in Belsley, Kuh & Welsch, 'Regression diagnostics
@@ -642,7 +642,7 @@ print('the mean absoluate error of DecisionTreeRegressor:',mean_absolute_error(s
     R-squared value of DecisionTreeRegressor: 0.639605796776
     the mean squared error of DecisionTreeRegressor: 27.9454330709
     the mean absoluate error of DecisionTreeRegressor: 3.34881889764
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:583: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
@@ -650,7 +650,7 @@ print('the mean absoluate error of DecisionTreeRegressor:',mean_absolute_error(s
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:646: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
-    
+
 
 ## 5. Ensemble Regression 
 
@@ -741,7 +741,7 @@ print('the mean absoluate error of GradientBoostingRegressor:',mean_absolute_err
 ```
 
     Boston House Prices dataset
-    
+
     Notes
     ------
     Data Set Characteristics:  
@@ -774,10 +774,10 @@ print('the mean absoluate error of GradientBoostingRegressor:',mean_absolute_err
     
     This is a copy of UCI ML housing dataset.
     http://archive.ics.uci.edu/ml/datasets/Housing
-    
-    
+
+
     This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University.
-    
+
     The Boston house-price data of Harrison, D. and Rubinfeld, D.L. 'Hedonic
     prices and the demand for clean air', J. Environ. Economics & Management,
     vol.5, 81-102, 1978.   Used in Belsley, Kuh & Welsch, 'Regression diagnostics
@@ -807,7 +807,7 @@ print('the mean absoluate error of GradientBoostingRegressor:',mean_absolute_err
     R-squared value of GradientBoostingRegressor: 0.843173295919
     the mean error of GradientBoostingRegressor: 12.1605456565
     the mean absoluate error of GradientBoostingRegressor: 2.27306754066
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:583: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
@@ -815,4 +815,4 @@ print('the mean absoluate error of GradientBoostingRegressor:',mean_absolute_err
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\preprocessing\data.py:646: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and will raise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
       warnings.warn(DEPRECATION_MSG_1D, DeprecationWarning)
-    
+

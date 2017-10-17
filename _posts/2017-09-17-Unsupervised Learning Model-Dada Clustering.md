@@ -7,7 +7,7 @@ author:     Brian                      # 作者
 header-img: img/post-bg-hacker.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Unsupervised Learning
+    - Kaggle Competition
 ---
 
 # Unsupervised Learning Model-Dada Clustering
@@ -141,7 +141,7 @@ plt.show()
     [3 0 7 3 4 2 4 2 4 5 1 1 5 6]
     [2, 3, 4, 5, 8]
     [0.47114752373147084, 0.72152991499839714, 0.64442490492524895, 0.5548170502705031, 0.52967730106134192]
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Unsupervised%20Learning%20Model-Dada%20Clustering/output_2_1.png)
@@ -202,7 +202,7 @@ plt.show()
       6.46473326  6.33166436  6.14423172  5.91243809  5.9970971   6.38277121
       5.61600533  6.15116053  3.60959472  3.92813639  3.8515976   3.25619766
       3.18153509  3.12808213  3.93685184  3.24918762  3.66471859  3.53481055]
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Unsupervised%20Learning%20Model-Dada%20Clustering/output_3_1.png)

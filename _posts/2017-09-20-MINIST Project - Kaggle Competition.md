@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      MINIST Project           # 标题 
+title:      Convolutional Neural Network in MINIST Project           # 标题 
 subtitle:   Convolutional Neural Network #副标题
 date:       2017-09-20             # 时间
 author:     Brian                      # 作者
@@ -69,7 +69,7 @@ print(data.head())
     4         0         0         0         0         0  
     
     [5 rows x 785 columns]
-    
+
 
 
 ```python
@@ -90,7 +90,7 @@ print('images({0[0]},{0[1]})'.format(images.shape))
      [ 0.  0.  0. ...,  0.  0.  0.]
      [ 0.  0.  0. ...,  0.  0.  0.]]
     images(42000,784)
-    
+
 
 
 ```python
@@ -106,7 +106,7 @@ print('image_width => {0}\nimage_height => {1}'.format(image_width,image_height)
     image_size => 784
     image_width => 28
     image_height => 28
-    
+
 
 
 ```python
@@ -129,7 +129,7 @@ print(images[Image_to_display].shape)
 
 
     (784,)
-    
+​    
 
 
 ```python
@@ -144,7 +144,7 @@ print ('labels_flat[{0}] => {1}'.format(Image_to_display,labels_flat[Image_to_di
     [1 0 1 ..., 7 6 9]
     labels_flat(42000)
     labels_flat[10] => 8
-    
+
 
 
 ```python
@@ -158,7 +158,7 @@ print('labels_count => {0}'.format(labels_count))
     [0 1 2 3 4 5 6 7 8 9]
     10
     labels_count => 10
-    
+
 
 
 ```python
@@ -201,7 +201,7 @@ print ('labels[{0}] => {1}'.format(Image_to_display,labels[Image_to_display]))
     labels_dense.ravel() =  [1 0 1 ..., 7 6 9]
     labels(42000,10)
     labels[10] => [0 0 0 0 0 0 0 0 1 0]
-    
+
 
 
 ```python
@@ -218,7 +218,7 @@ print('validation_images({0[0]},{0[1]})'.format(validation_images.shape))
 
     train_images(40000,784)
     validation_images(2000,784)
-    
+
 
 
 ```python
@@ -235,7 +235,7 @@ print('validation_images({0[0]},{0[1]})'.format(validation_images.shape))
 
     train_image(40000,784)
     validation_images(2000,784)
-    
+
 
 
 ```python
@@ -405,7 +405,7 @@ sess.run(init)
     WARNING:tensorflow:From <ipython-input-54-eaffccdcb979>:152: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
     Instructions for updating:
     Use `tf.global_variables_initializer` instead.
-    
+
 
 
 ```python
@@ -471,7 +471,7 @@ for i in range(Training_iterations):
     training_accuracy / validation_accuracy => 0.88 / 0.92 for step 1000
     training_accuracy / validation_accuracy => 1.00 / 0.96 for step 2000
     training_accuracy / validation_accuracy => 1.00 / 0.98 for step 2499
-    
+
 
 
 ```python
@@ -494,7 +494,7 @@ if (Validation_size):
 ```
 
     validation_accuracy => 0.9790
-    
+​    
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/MINIST%2BProject%2B-%2BKaggle%2BCompetition/output_14_1.png)
@@ -539,11 +539,11 @@ np.savetxt('submission_softmax.csv',
 
     test_images(28000,784)
     predicted_lables(28000)
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/MINIST%2BProject%2B-%2BKaggle%2BCompetition/output_15_1.png)
 
 
     predicted_lables[10] => 5.0
-    
+​    

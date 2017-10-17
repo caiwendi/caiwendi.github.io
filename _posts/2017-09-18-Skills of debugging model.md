@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Kaggle Competition           # 标题 
+title:      Skills of debugging model           # 标题 
 subtitle:   特征提升，模型正则化，模型检验，超参数搜索 #副标题
 date:       2017-09-18              # 时间
 author:     Brian                      # 作者
@@ -254,8 +254,8 @@ print(classification_report(y_test,y_tfidf_filter_predict,target_names=news.targ
           talk.religion.misc       0.96      0.29      0.45       158
     
                  avg / total       0.89      0.88      0.88      4712
-    
-    
+
+​    
 
 ### 1.2 Feature Selection 
 
@@ -536,14 +536,14 @@ print(dt.score(X_test_fs,y_test))
       0.86692435  0.86794475  0.86895485  0.86588332  0.86588332  0.86791383
       0.86692435  0.85776129  0.86692435  0.8618223   0.86286333  0.86082251
       0.85982272  0.86386312]
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_6_1.png)
 
 
     0.857142857143
-    
+​    
 
 ## 2. 模型正则化
 
@@ -786,28 +786,28 @@ print('the R-squared value of Polynomial Regressor(Degree=4) performing on train
      [ 25.47474747]
      [ 25.73737374]
      [ 26.        ]]
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_9_1.png)
 
 
     the R-squared value of Linear Regressor performing on the training data is: 0.910001596424
-    
+​    
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_9_3.png)
 
 
     the R-squared value of Polynomial Regressor(Degree=2) performing on training data is: 0.98164216396
-    
+​    
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_9_5.png)
 
 
     the R-squared value of Polynomial Regressor(Degree=4) performing on training data is: 1.0
-    
+​    
 
 ### 2.2 L1 Regularization
 
@@ -980,7 +980,7 @@ print('the accuracy is:',lasso_poly4.score(X_test_poly4_lasso,y_test))
      [ 25.47474747]
      [ 25.73737374]
      [ 26.        ]]
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_11_1.png)
@@ -988,11 +988,11 @@ print('the accuracy is:',lasso_poly4.score(X_test_poly4_lasso,y_test))
 
     the accuracy is: 0.809588079577
     the accuracy is: 0.83889268736
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:466: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations
       ConvergenceWarning)
-    
+
 
 ### 2.3 L2 Regularization
 
@@ -1171,7 +1171,7 @@ print(np.sum(Ridge_poly4.coef_ ** 2))
      [ 25.47474747]
      [ 25.73737374]
      [ 26.        ]]
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_13_1.png)
@@ -1184,7 +1184,7 @@ print(np.sum(Ridge_poly4.coef_ ** 2))
     the accuracy is: 0.837420175937
     [[ 0.         -0.00492536  0.12439632 -0.00046471 -0.00021205]]
     0.0154989652036
-    
+
 
 ## 3. 模型检验 
 
@@ -1332,14 +1332,14 @@ print(gs.score(X_test,y_test))
     [CV] ........................... svc__C=10.0, svc__gamma=10.0 -   6.3s
     [CV] svc__C=10.0, svc__gamma=10.0 ....................................
     [CV] ........................... svc__C=10.0, svc__gamma=10.0 -   6.3s
-    
+
 
     [Parallel(n_jobs=1)]: Done  36 out of  36 | elapsed:  3.8min finished
-    
+​    
 
     {'svc__C': 10.0, 'svc__gamma': 0.10000000000000001} 0.790666666667
     0.822666666667
-    
+
 
 ### 4.2 Parallel Grid Search 
 
@@ -1397,11 +1397,11 @@ if __name__ == '__main__':
 ```
 
     Fitting 3 folds for each of 12 candidates, totalling 36 fits
-    
+​    
 
     [Parallel(n_jobs=-1)]: Done  36 out of  36 | elapsed:   59.9s finished
-    
+​    
 
     {'svc__C': 10.0, 'svc__gamma': 0.10000000000000001} 0.790666666667
     0.822666666667
-    
+

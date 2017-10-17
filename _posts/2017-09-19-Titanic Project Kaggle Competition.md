@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Titanic Project           # 标题 
+title:      Comparision in Titanic Project           # 标题 
 subtitle:   Sklearn,Decision Tree, Gradient Boosting,Random Forest,Xgboost #副标题
 date:       2017-09-19              # 时间
 author:     Brian                      # 作者
@@ -231,14 +231,14 @@ print(xgbc_submission)
     dtypes: float64(2), int64(3), object(2)
     memory usage: 22.9+ KB
     None
-    
+
 
     C:\Users\xxz\Anaconda3\lib\site-packages\pandas\core\generic.py:3191: SettingWithCopyWarning: 
     A value is trying to be set on a copy of a slice from a DataFrame
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-    
+
 
     ['Age', 'Embarked=C', 'Embarked=Q', 'Embarked=S', 'Fare', 'Parch', 'Pclass', 'Sex=female', 'Sex=male', 'SibSp']
     the accuracy of DecisionTreeClassifier on training set 0.772234108463
@@ -437,4 +437,4 @@ print(xgbc_submission)
     417         1309         0
     
     [418 rows x 2 columns]
-    
+

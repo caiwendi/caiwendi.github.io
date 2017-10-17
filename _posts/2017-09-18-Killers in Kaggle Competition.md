@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Kaggle Competition           # 标题 
+title:      XGBoost           # 标题 
 subtitle:   XGBoost                  #副标题
 date:       2017-09-18              # 时间
 author:     Brian                      # 作者
@@ -75,7 +75,7 @@ print('the accuracy of XGBoost on training set:',xgbc.score(X_test,y_test))
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-    
+
 
          pclass        age     sex
     1086    3rd  31.194181    male
@@ -274,7 +274,7 @@ print('the accuracy of XGBoost on training set:',xgbc.score(X_test,y_test))
     Name: survived, dtype: int64
     the accuracy of RandomForestClassifier on training set: 0.775075987842
     the accuracy of XGBoost on training set: 0.787234042553
-    
+
 
 ## 2. TensorFlow Framework 
 
@@ -303,7 +303,7 @@ sess.close()
 ```
 
     b'Hello Google Tensorflow! '
-    
+​    
 
 
 ```python
@@ -329,7 +329,7 @@ with tf.Session() as sess:
 ```
 
     [[14]]
-    
+​    
 
 ### 2.2 Establishing  Classifier
 
@@ -671,7 +671,7 @@ plt.show()
     970 [[ 0.05786153  0.07741478]] [-0.08683521]
     980 [[ 0.05786135  0.07741567]] [-0.08683946]
     990 [[ 0.05786117  0.0774165 ]] [-0.08684334]
-    
+
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Killers%20in%20Kaggle%20Competition/output_8_1.png)
