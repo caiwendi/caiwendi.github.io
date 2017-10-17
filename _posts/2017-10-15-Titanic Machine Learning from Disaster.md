@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Titanic: Machine Learning from Disaster           # 标题 
+title:      Machine Learning from Disaster of Titanic          # 标题 
 subtitle:   Random Forest, AdaBoost,Gradient Boosting,ExtraTrees,SVM,Cross_validation #副标题
 date:       2017-10-15              # 时间
 author:     Brian                      # 作者
