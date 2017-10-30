@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      卷积神经网络           # 标题 
-subtitle:   Convolutional Neural Network #副标题
+title:      Convolutional Neural Network         # 标题 
+subtitle:   卷积神经网络  #副标题
 date:       2017-06-07              # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-os-metro.jpg    #这篇文章标题背景图片
