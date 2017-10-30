@@ -11,11 +11,13 @@ tags:       Research       #标签    
 
 ##1、论文下载
 
- [Deep Convolutional Nets for Semantic Image Segmentation with Deep Gaussian CRFs ](https://www.researchgate.net/publication/320716545_IWACIII2017_Presentation)
+ [Paper: Deep Convolutional Nets for Semantic Image Segmentation with Deep Gaussian CRFs ](https://www.researchgate.net/profile/Xie_Zhongzhao/publication/320710326_Deep_Convolutional_Nets_for_Semantic_Image_Segmentation_with_Deep_Gaussian_CRFs/links/59f6f3bdaca272607e2be195/Deep-Convolutional-Nets-for-Semantic-Image-Segmentation-with-Deep-Gaussian-CRFs.pdf?_iepl%5BhomeFeedViewId%5D=ikZkCx8G3QFN0n9d40vEIaS5&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=dwe2dHdsnJJ9LfYmv5SDzLLemI7yBOUWI4e-2a6WakEYmZzTH37-JXAUuvBNsgkZZfIsgzxhjCFB_eab1QteGmT8FirTKtkiAfDeMNR7LJx2zAIApS_01nWR.VhQ0HwPYfAMu2oEQimN_P8OHaAwLh8piEaVPqTsbz4Y0-t2fXO2TpRr1N1oKRG-GH9woCbQfXu_zf6x5x_GPVH4Ie6yt_NXJkHxzDA.u9wQS1kOsgA-Xfj6JIMkx1oRqJrwmP6v3tvJn2R9tgqGF2J--U3ImIW7oo_W3_OCc7h1sMg353r1Y8Wt0ulUkwnVf-x-DV4UzSoFCQ.ehz93Injq6xUzbCLvojht-pgS0WmsXu9dFb3VDj4WA19R0Hbs_3VYoAr_Ua5Z4OWVNIh8kS_YEKa2mOtYgKmjAh4sjw99QFV1S1myQ)
 
-## 2、会议论文汇报PPT
+ [PPT Download](https://www.researchgate.net/profile/Xie_Zhongzhao/publication/320716545_IWACIII2017_Presentation/data/59f73d7aaca272607e2d7712/12-xiezhongchao.ppt)
 
-[会议论文汇报PPT](https://www.researchgate.net/profile/Xie_Zhongzhao/publication/320716545_IWACIII2017_Presentation/data/59f73d7aaca272607e2d7712/12-xiezhongchao.ppt)
+## 2、会议论文汇报PPT   
+
+
 
 
 ![](https://i.imgur.com/6uH8w0w.png)
