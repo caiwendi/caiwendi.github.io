@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Tensorflow           # 标题 
+title:      Softmax Regression,AutoEncoder Network # 标题 
 subtitle:   Softmax regression,AutoEncoder #副标题
 date:       2017-06-08              # 时间
 author:     Brian                      # 作者

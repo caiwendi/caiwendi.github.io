@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Tensorflow           # 标题 
+title:      Image Classification and Segmentation with Tensorflow and TF-Slim           # 标题 
 subtitle:   TF-Slim, image segmentation #副标题
 date:       2017-06-30              # 时间
 author:     Brian                      # 作者
@@ -277,7 +277,7 @@ discrete_matshow(data=relabeled_image, labels_names=labels_names, title="Segment
 ```
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/output_12_0.png)   
-  
+
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/output_12_1.png)
 
 (1)我们得到的结果显示网络模型确实可以从图片中找到校车，以及左上角显示不太清晰的交通标志。而且，模型可以找到左上角建筑物的窗户，甚至猜测说这是一个图书馆（我们无法判断是否属实）。它做出了一些不那么正确的预测。这些通常是由于网络在预测的时候只能看到当前像素周围的一部分图像。网络模型表现出来的这种特性被称为感受视野。在本文中，我们使用的网络模型的感受视野是404像素。所以，当网络只能观察到校车的一部分图片时，与出租车和皮卡车混淆了。
