@@ -15,6 +15,8 @@ tags:       Research       #标签    
 
 ## 2、会议论文汇报PPT
 
+[会议论文汇报PPT](https://www.researchgate.net/profile/Xie_Zhongzhao/publication/320716545_IWACIII2017_Presentation/data/59f73d7aaca272607e2d7712/12-xiezhongchao.ppt)
+
 
 ![](https://i.imgur.com/6uH8w0w.png)
 ![](https://i.imgur.com/C8me9BC.png)
