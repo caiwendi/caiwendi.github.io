@@ -10,8 +10,6 @@ tags:                               #标签
     - Personal Plan
 ---
 
-#The Most Vital Missions
-
 ## Plan 1:  Academic papers
 
 ### 1. Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF
