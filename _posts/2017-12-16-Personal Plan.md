@@ -12,30 +12,27 @@ tags:                               #标签
 
 ## Plan 1:  Academic papers
 
-### 1. Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF
-
-### 2. The Second one: Symmetric Convolutional Neural Network 
+1.Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF
+2.The Second one: Symmetric Convolutional Neural Network 
 
 ## Plan 2: Summary of the learned machine learning algorithm
 
-### 1. C4.5
-### 2. K-MEANS
-### 3. SUPPORT VECTOR MACHINE
-### 4. APRIORI
-### 5. EXPECTATION-MAXIMIZATION
-### 6. PAGERANK
-### 7. ADABOOST
-### 8. K-NEAREST NEIGHBOURS(KNN)
-### 9. NAIVE BAYES
-### 10. CART
-### 11. Bagging
-### 12. Boosting
-### 13. Stacking
+1.C4.5    
+2.K-MEANS    
+3.SUPPORT VECTOR MACHINE    
+4.APRIORI    
+5.EXPECTATION-MAXIMIZATION    
+6.PAGERANK    
+7.ADABOOST    
+8.K-NEAREST NEIGHBOURS(KNN)    
+9.NAIVE BAYES    
+10.CART    
+11.Bagging   
+12.Boosting   
+13.Stacking  
 
 ## Plan 3: Oral English
-
-### 1. The first five episodes of Friends season 9
-
+1.The first five episodes of Friends season 9
 ## Plan 4: Reading a world famous literature
 
 ![](http://ww1.sinaimg.cn/large/b4c0024fgy1fmj0lkpx39j205807ggli.jpg)
