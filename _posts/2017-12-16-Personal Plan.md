@@ -12,7 +12,8 @@ tags:                               #标签
 
 ## Plan 1:  Academic papers
 
-1.Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF     
+1.Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF 
+
 2.The Second one: Symmetric Convolutional Neural Network    
 
 ## Plan 2: Summary of the learned machine learning algorithm
