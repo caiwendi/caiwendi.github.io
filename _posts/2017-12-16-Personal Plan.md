@@ -10,22 +10,22 @@ tags:                               #标签
     - Personal Plan
 ---
 
-# The Most Vital Missions
+#The Most Vital Missions
 
 ## Plan 1:  Academic papers
 
-### 1.Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF
+### 1. Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF
 
-### 2.The Second one: Symmetric Convolutional Neural Network 
+### 2. The Second one: Symmetric Convolutional Neural Network 
 
 ## Plan 2: Summary of the learned machine learning algorithm
 
-### 1.C4.5
-### 2.K-MEANS
-### 3.SUPPORT VECTOR MACHINE
-### 4.APRIORI
-### 5.EXPECTATION-MAXIMIZATION
-### 6.PAGERANK
+### 1. C4.5
+### 2. K-MEANS
+### 3. SUPPORT VECTOR MACHINE
+### 4. APRIORI
+### 5. EXPECTATION-MAXIMIZATION
+### 6. PAGERANK
 ### 7.ADABOOST
 ### 8.K-NEAREST NEIGHBOURS(KNN)
 ### 9.NAIVE BAYES
