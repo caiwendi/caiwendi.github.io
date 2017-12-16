@@ -26,17 +26,17 @@ tags:                               #标签
 ### 4. APRIORI
 ### 5. EXPECTATION-MAXIMIZATION
 ### 6. PAGERANK
-### 7.ADABOOST
-### 8.K-NEAREST NEIGHBOURS(KNN)
-### 9.NAIVE BAYES
-### 10.CART
-### 11.Bagging
-### 12.Boosting
-### 13.Stacking
+### 7. ADABOOST
+### 8. K-NEAREST NEIGHBOURS(KNN)
+### 9. NAIVE BAYES
+### 10. CART
+### 11. Bagging
+### 12. Boosting
+### 13. Stacking
 
 ## Plan 3: Oral English
 
-###The first five episodes of Friends season 9
+### The first five episodes of Friends season 9
 
 ## Plan 4: Reading a world famous literature
 
