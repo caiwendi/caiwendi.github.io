@@ -12,8 +12,8 @@ tags:                               #标签
 
 ## Plan 1:  Academic papers
 
-1.Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF
-2.The Second one: Symmetric Convolutional Neural Network 
+1.Complementary Convolution Residual Networks for Semantic   Segmentation in Street Scenes with Deep Gaussian CRF     
+2.The Second one: Symmetric Convolutional Neural Network    
 
 ## Plan 2: Summary of the learned machine learning algorithm
 
@@ -32,7 +32,7 @@ tags:                               #标签
 13.Stacking  
 
 ## Plan 3: Oral English
-1.The first five episodes of Friends season 9
+1.The first five episodes of Friends season 9   
 ## Plan 4: Reading a world famous literature
 
 ![](http://ww1.sinaimg.cn/large/b4c0024fgy1fmj0lkpx39j205807ggli.jpg)
