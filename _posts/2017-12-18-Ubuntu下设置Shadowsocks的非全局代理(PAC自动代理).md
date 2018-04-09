@@ -17,7 +17,7 @@ sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
-安装好shadowsocks-qt5之后，[配置搭建好的服务器的相关信息](https://github.com/xiezhongzhao/xiezhongzhao.github.io/edit/master/_posts/2017-12-20-GoogleCloudPlatform%E6%90%AD%E5%BB%BAvps.md), 如图：![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6nvddbc8j30pz0evq5k.jpg)
+安装好shadowsocks-qt5之后，[配置搭建好的服务器的相关信息](http://xiezhongzhao.top/2017/12/20/GoogleCloudPlatform%E6%90%AD%E5%BB%BAvps/), 如图：![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6nvddbc8j30pz0evq5k.jpg)
 
 ## 2、Ubuntu下设置Shadowsocks的非全局代理（PAC自动代理）
 
@@ -59,14 +59,15 @@ url为shadowsocks里的pac文件
 ![img](https://leanote.com/api/file/getImage?fileId=587305cfab6441236e01829c)
 
 
-
-### 2.5、自定义网站翻墙
+### 2.6、自定义网站代理
 
 如果打开国外网站慢，可以将网址手动添加到pac文件中,如果添加到末尾,记得要加上逗号;以`atom.io`为列 
 
 
-
 ![img](https://leanote.com/api/file/getImage?fileId=58730a88ab6441236e01831d)
 
+### 2.7、打开浏览器上网
+
+![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6ob7l9drj311a0oo11g.jpg)
 
 
