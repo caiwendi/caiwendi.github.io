@@ -17,7 +17,7 @@ sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
-安装好shadowsocks-qt5之后，[配置搭建好的服务器的相关信息](https://github.com/xiezhongzhao/xiezhongzhao.github.io/blob/master/_posts/2017-12-18-Ubuntu%E4%B8%8B%E8%AE%BE%E7%BD%AEShadowsocks%E7%9A%84%E9%9D%9E%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86(PAC%E8%87%AA%E5%8A%A8%E4%BB%A3%E7%90%86).md), 如图：![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6nvddbc8j30pz0evq5k.jpg)
+安装好shadowsocks-qt5之后，[配置搭建好的服务器的相关信息](https://github.com/xiezhongzhao/xiezhongzhao.github.io/edit/master/_posts/2017-12-20-GoogleCloudPlatform%E6%90%AD%E5%BB%BAvps.md), 如图：![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6nvddbc8j30pz0evq5k.jpg)
 
 ## 2、Ubuntu下设置Shadowsocks的非全局代理（PAC自动代理）
 
