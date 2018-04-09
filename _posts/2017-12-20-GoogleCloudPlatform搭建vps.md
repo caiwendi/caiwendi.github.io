@@ -11,11 +11,11 @@ tags:       Tool              #标签
 
 ## GoogleCloudPlatform搭建vps
 
-1：前提条件，拥有一张信用卡，Visa或者MasterCard或者JCB
+1：前提条件，拥有一张信用卡，Visa或者MasterCard或者JCB.
 
-2：有一个可以临时翻墙的环境，都是脸书的网友想必这个就不必操心了能上脸书的都是已经翻墙的。
+2：有一个可以临时翻墙的环境.
 
-3：工具软件，从以下网址下载对应平台的shadowsocks
+3：工具软件，从以下网址下载对应平台的shadowsocks.
 
 [http://shadowsocks.org/en/download/clients.html](https://shadowsocks.org/en/download/clients.html)
 
