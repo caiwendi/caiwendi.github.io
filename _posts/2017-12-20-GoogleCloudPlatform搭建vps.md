@@ -12,37 +12,22 @@ tags:       Tool              #标签
 ## GoogleCloudPlatform搭建vps
 
 1：前提条件，拥有一张信用卡，Visa或者MasterCard或者JCB.
-
 2：有一个可以临时代理的环境.
-
 3：工具软件，从以下网址下载对应平台的shadowsocks.
-
 [http://shadowsocks.org/en/download/clients.html](https://shadowsocks.org/en/download/clients.html)
-
 4：拥有谷歌账户，这里注册谷歌账户的步骤就不在赘述了。谷歌的全家桶都用这一个账户。另外推荐使用chrome浏览器因为谷歌云是英文的，用这个浏览器可以翻译网页
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mfqzpb7j30ib09saaa.jpg)
-
-
 
 ## 一、创建vps
 
 1、 <https://cloud.google.com/>打开网址进行注册
-
 2、开始创建VM实例
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mmixfdxj30bw05uaa8.jpg)
-
 3、进入后点击创建实例
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mnwqhoxj30dq0p075p.jpg)
-
 4、创建成功就会出现一个VM实例的列表，如图
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mq5wy2tj30fe06dmx6.jpg)
-
 5、验证速度
-
 拷贝这个ip地址在浏览器输入<https://www.ipip.net/traceroute.php>. 验证速度均在100内，说明速度没问题
 
 ## 二、配置服务器
@@ -55,15 +40,12 @@ Step 2 : wget --no-check-certificate https://raw.githubusercontent.com/ligl0702/
 ```
 
 2、执行上述2个步骤，得到如下结果：
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mucorzjj30e404kjrc.jpg)
 
 3、设置密码和端口
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mv1hysyj30dj0da0sy.jpg)
 
 4、一路回车后，大概需要10分钟左右的配置时间，等待就好。
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mw7ik8uj30c705kglm.jpg)
 
 5、恭喜你 看到这个画面证明你成功了。谷歌云代码部分已经配置完毕。
@@ -71,11 +53,9 @@ Step 2 : wget --no-check-certificate https://raw.githubusercontent.com/ligl0702/
 6、配置防火墙规则：
 
 网络-----VPC网络----防火墙规则
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6mxwekuoj30bz03sjrc.jpg)
 
 把端口号设置为之前我们自己规定的789
-
 ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fq6myoqkr0j30fe02bq2u.jpg)
 
 如图，这里我之前设置了456，点进去都可以修改的。你之前设置的是多少就写多少
@@ -93,13 +73,9 @@ OK，谷歌云vps搭建完毕。
 ## 三、配置客户端
 
 1、Shadowsocks安卓客户端
-
 https://github.com/shadowsocks/shadowsocks-android
-
 2、Wingy苹果客户端
-
 3、Windows电脑客户端
-
 https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.0.9/Shadowsocks-4.0.9.zip
 
 
