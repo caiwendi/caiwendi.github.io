@@ -108,6 +108,9 @@ friends: [
     },{
         title: "Andrej Karpathy",
         href: "https://cs.stanford.edu/people/karpathy/"
+    },{
+        title: "Geoffrey E. Hinton",
+        href: "http://www.cs.toronto.edu/~hinton/"
     }
 ]
 
