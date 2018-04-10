@@ -93,24 +93,46 @@ friends: [
     {
         title: "Andrew Ng",
         href: "http://www.andrewng.org/"
-    },{
-        #title: "简书·BY",
-        #href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
+    },
+    
+    {
+        title: "Research at Google",
+        href: "https://research.google.com/"
+    },
+    
+    {
+        title: "Facebook-AI-Research",
+        href: "https://research.fb.com/category/facebook-ai-research-fair/"
+    },
+    
+    {
         title: "Justin Johnson",
         href: "https://cs.stanford.edu/people/jcjohns/"
-    },{
+    },
+    
+    {
         title: "Stanford Vision Lab",
         href: "http://vision.stanford.edu/publications.html"
-    },{
+    },
+    
+    {
         title: "Andrej Karpathy",
         href: "https://cs.stanford.edu/people/karpathy/"
-    },{
+    },
+    
+    {
         title: "Geoffrey E. Hinton",
         href: "http://www.cs.toronto.edu/~hinton/"
+    },
+    
+    {
+        title: "Yoshua Bengio",
+        href: "https://mila.quebec/en/person/bengio-yoshua/"
+    },
+    
+    {
+        title: "Yann LeCun",
+        href: "http://yann.lecun.com/"
     }
 ]
 
