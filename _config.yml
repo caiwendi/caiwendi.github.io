@@ -100,8 +100,14 @@ friends: [
         title: "Apple",
         href: "https://apple.com"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Justin Johnson",
+        href: "https://cs.stanford.edu/people/jcjohns/"
+    },{
+        title: "Stanford Vision Lab",
+        href: "http://vision.stanford.edu/publications.html"
+    },{
+        title: "Andrej Karpathy",
+        href: "https://cs.stanford.edu/people/karpathy/"
     }
 ]
 
