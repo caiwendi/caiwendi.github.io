@@ -62,7 +62,9 @@ The command creates a configuration file (`jupyter_notebook_config.py`) in the `
   ```
 
   This completes Jupyter server configuration.
+  (c) Open your terminal,input `jupyter notebook`,you will get the information as follows:
+  ![](http://ww1.sinaimg.cn/large/006zLtEmgy1fqaqziawf9j30u803bq3m.jpg)
 
-### 5. You can  access the Jupyter notebook server at  IP address  in Browser.
+### 5. You need to copy your IP address above to your browser
 
 If you log in to the jupyter notebook server, just input the password you set above .        
