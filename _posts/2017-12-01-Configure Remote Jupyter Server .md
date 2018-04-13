@@ -67,4 +67,5 @@ The command creates a configuration file (`jupyter_notebook_config.py`) in the `
 
 ### 5. You need to copy your IP address above to your browser
 
-If you log in to the jupyter notebook server, just input the password you set above .        
+If you log in to the jupyter notebook server, just input the password you set above . 
+![](http://ww1.sinaimg.cn/large/006zLtEmgy1fqar87m4chj30nm046a9w.jpg)
