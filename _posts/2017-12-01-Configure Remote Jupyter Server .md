@@ -14,18 +14,25 @@ tags:       - Tool                  #标签
 ### 1. Create an SSL certificate.
 
   `$ cd`
+  
   `$ mkdir ssl`
+  
   `$ cd ssl`
+  
   `$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout cert.key" -out "cert.pem" -batch`
+  
 
 ### 2. Create a password. You use this password to log in to the Jupyter notebook server from your client so you can access notebooks on the server.
   (a) Open the iPython terminal.
 
   `$ ipython`
+  
   At the iPython prompt, run the `passwd()` command to set the password. 
 
   `iPythonPrompt> from IPython.lib import passwd `
+  
   `iPythonPrompt> passwd()`
+  
   You get the password hash (For example, `sha1:examplefc216:3a35a98ed...`)
   (b) Record the password hash.
   (c) Exit the iPython terminal.
@@ -33,11 +40,11 @@ tags:       - Tool                  #标签
 
 ### 3. Create a Jupyter configuration file. 
 `$ jupyter notebook --generate-config `
+
 The command creates a configuration file (`jupyter_notebook_config.py`) in the `~/.jupyter` directory. 
 
 ### 4. Update the configuration file to store your password and SSL certificate information. 
   (a) Open the .config file.
-
 
   `vi ~/.jupyter/jupyter_notebook_config.py`
 
