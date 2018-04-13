@@ -2,12 +2,11 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Configure the Jupyter server   # 标题 
 subtitle:   Jupyter Notebook #副标题
-date:       2017-12-01             # 时间
+date:       2017-12-20             # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-os-metro.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-tags:                               #标签
-    - Tool
+tags:       - Tool                  #标签
 ---
 
 ## Configure the Jupyter server
