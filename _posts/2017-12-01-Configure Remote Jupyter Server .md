@@ -6,7 +6,7 @@ date:       2017-12-20             # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-os-metro.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-tags:       - Tool                  #标签
+tags:       Tool                  #标签
 ---
 
 ## Configure the Jupyter server
