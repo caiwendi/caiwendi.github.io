@@ -11,7 +11,7 @@ github_repo: "https://github.com/caiwendi/caiwendi.github.io.git"
 
 sidebar: ture
 sidebar-about-description: "全てはシュタインズゲートの选択だ!"
-sidebar-avatar: /img/Steins.jpg
+sidebar-avatar: /img/Steins.png
 
 # SNS settings
 RSS: false
