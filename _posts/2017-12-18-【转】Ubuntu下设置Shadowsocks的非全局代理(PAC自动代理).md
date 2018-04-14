@@ -6,7 +6,8 @@ date:       2017-12-18              # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-tags:       - 转载                       #标签
+tags:       
+- 转载                       #标签
 ---
 
 
