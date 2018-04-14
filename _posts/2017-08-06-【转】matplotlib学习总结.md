@@ -1,13 +1,13 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      【搬运】Matplotlib           # 标题 
+title:      【转】Matplotlib           # 标题 
 subtitle:   Matplotlib operations #副标题
 date:       2017-08-06              # 时间
 author:     Brian                      # 作者
 header-img: img/Taylor1.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Matplotlib
+    - Matplotlib	- 转载
 ---
 
 
@@ -123,7 +123,6 @@ plt.show()
     C:\Users\xxz\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:531: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
       warnings.warn("No labelled objects found. "
 
-
 ![png](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/matplotlib%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/output_8_1.png)
 
 
@@ -157,7 +156,6 @@ plt.show()
 
     C:\Users\xxz\Anaconda3\lib\site-packages\matplotlib\axes\_axes.py:531: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
       warnings.warn("No labelled objects found. "
-
 
 ![png](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/matplotlib%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/output_10_1.png)
 
@@ -307,7 +305,6 @@ plt.show()
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     [5, 2, 4, 8, 3, 6, 8, 3, 2, 6]
 
-
 ![png](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/matplotlib%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/output_17_1.png)
 
 
@@ -345,7 +342,6 @@ plt.show()
 
 
     <matplotlib.figure.Figure at 0x1ca32b7d9e8>
-
 
 ![png](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/matplotlib%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/output_19_1.png)
 
@@ -386,7 +382,6 @@ plt.show()
 
     <matplotlib.figure.Figure at 0x1ca30e80f60>
 
-
 ![png](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/matplotlib%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/output_21_1.png)
 
 
@@ -426,7 +421,6 @@ plt.show()
 
     <matplotlib.figure.Figure at 0x1ca31048e48>
 
-
 ![png](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/matplotlib%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/output_23_1.png)
 
 
@@ -458,7 +452,6 @@ fig.savefig("conclusion.png", dpi=300)  #save graph
 ```
 
     C:\Users\xxz\Anaconda3\lib\site-packages\mpl_toolkits\mplot3d\axes3d.py
-
 
 ![png](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/matplotlib%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/output_25_1.png)
 
