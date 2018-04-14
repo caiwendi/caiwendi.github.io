@@ -7,7 +7,7 @@ author:     Brian                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Kaggle Competition
+    - 转载
 ---
 
 
@@ -258,7 +258,6 @@ sns.heatmap(train.astype(float).corr(),linewidths=0.1,vmax=1.0, square=True, cma
     <matplotlib.axes._subplots.AxesSubplot at 0x7f0f1aeddb50>
 
 
-
 ![](http://ww1.sinaimg.cn/large/b4c0024fgy1fkl4ie0mzqj20mc0ky76m.jpg)
 
 
@@ -280,7 +279,6 @@ g.set(xticklabels=[])
 
 
     <seaborn.axisgrid.PairGrid at 0x7f0ed009c3d0>
-
 
 
 ![](http://ww1.sinaimg.cn/large/b4c0024fgy1fkl4iptczbj20mo0kx0uj.jpg)

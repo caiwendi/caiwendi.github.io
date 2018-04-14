@@ -7,7 +7,7 @@ author:     Brian                      # 作者
 header-img: img/post-bg-universe.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Kaggle Competition
+    - 转载
 ---
 
 # Skills of debugging model
@@ -537,7 +537,6 @@ print(dt.score(X_test_fs,y_test))
       0.86692435  0.85776129  0.86692435  0.8618223   0.86286333  0.86082251
       0.85982272  0.86386312]
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_6_1.png)
 
 
@@ -786,7 +785,6 @@ print('the R-squared value of Polynomial Regressor(Degree=4) performing on train
      [ 25.73737374]
      [ 26.        ]]
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_9_1.png)
 
 
@@ -979,13 +977,12 @@ print('the accuracy is:',lasso_poly4.score(X_test_poly4_lasso,y_test))
      [ 25.73737374]
      [ 26.        ]]
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_11_1.png)
 
 
     the accuracy is: 0.809588079577
     the accuracy is: 0.83889268736
-
+    
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:466: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations
       ConvergenceWarning)
 
@@ -1167,7 +1164,6 @@ print(np.sum(Ridge_poly4.coef_ ** 2))
      [ 25.73737374]
      [ 26.        ]]
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_13_1.png)
 
 
@@ -1194,7 +1190,6 @@ print(np.sum(Ridge_poly4.coef_ ** 2))
 
 
     '\n模型检验主要有两种方法:\n(1) 留一验证\n(2) 交叉验证\n'
-
 
 ## 4. 超参数搜索 
 
@@ -1324,7 +1319,7 @@ print(gs.score(X_test,y_test))
     [CV] ........................... svc__C=10.0, svc__gamma=10.0 -   6.3s
     [CV] svc__C=10.0, svc__gamma=10.0 ....................................
     [CV] ........................... svc__C=10.0, svc__gamma=10.0 -   6.3s
-
+    
     [Parallel(n_jobs=1)]: Done  36 out of  36 | elapsed:  3.8min finished
 ​    
 

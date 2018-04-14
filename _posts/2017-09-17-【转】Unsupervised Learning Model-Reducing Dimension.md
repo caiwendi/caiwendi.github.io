@@ -7,7 +7,7 @@ author:     Brian                      # 作者
 header-img: img/post-bg-hacker.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Kaggle Competition
+    - 转载
 ---
 
 # Unsupervised Learning Model-Reducing Dimension
@@ -179,7 +179,6 @@ plot_pca_scatter()
       -7.87394324e+00  -1.97542950e+00  -2.80337867e+00  -5.70773108e+00
        1.97880168e+01   8.16372094e+00   1.15713887e+01   8.96707599e+00
        1.54352343e+01]
-
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Unsupervised%20Learning%20Model-Reducing%20Dimension/output_3_1.png)
 

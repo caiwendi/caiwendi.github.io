@@ -7,7 +7,7 @@ author:     Brian                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Kaggle Competition
+    - 转载
 ---
 
 # Supervised Learning Model-Classification Learning
@@ -274,7 +274,7 @@ print(classification_report(y_test,y_predict,target_names=news.target_names))
       - ATI Graphics Ultra Pro
     
       - Any other high-performance VLB card
-
+    
     Please post or email.  Thank you!
     
       - Matt
@@ -561,13 +561,13 @@ print(classification_report(y_predict,y_test,target_names=['died','survived']))
     dtypes: float64(1), object(2)
     memory usage: 30.9+ KB
     None
-
+    
     C:\Users\xxz\Anaconda3\lib\site-packages\pandas\core\generic.py:3191: SettingWithCopyWarning: 
     A value is trying to be set on a copy of a slice from a DataFrame
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-
+    
     None
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 1313 entries, 0 to 1312
@@ -941,7 +941,7 @@ print(classification_report(gbc_y_pred,y_test,target_names=['died','survived']))
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-
+    
     the accuracy of decision tree is 0.781155015198
                  precision    recall  f1-score   support
     
