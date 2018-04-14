@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Convolutional Neural Network in MINIST Project           # 标题 
+title:      【转】Convolutional Neural Network in MINIST Project           # 标题 
 subtitle:   Convolutional Neural Network #副标题
 date:       2017-09-20             # 时间
 author:     Brian                      # 作者
@@ -71,7 +71,6 @@ print(data.head())
     [5 rows x 785 columns]
 
 
-
 ```python
 images = data.iloc[:,1:].values
 images = images.astype(np.float)
@@ -92,7 +91,6 @@ print('images({0[0]},{0[1]})'.format(images.shape))
     images(42000,784)
 
 
-
 ```python
 image_size = images.shape[1]
 print('image_size => {0}'.format(image_size))
@@ -106,7 +104,6 @@ print('image_width => {0}\nimage_height => {1}'.format(image_width,image_height)
     image_size => 784
     image_width => 28
     image_height => 28
-
 
 
 ```python
@@ -146,7 +143,6 @@ print ('labels_flat[{0}] => {1}'.format(Image_to_display,labels_flat[Image_to_di
     labels_flat[10] => 8
 
 
-
 ```python
 labels_count = np.unique(labels_flat).shape[0]
 print(np.unique(labels_flat))
@@ -158,7 +154,6 @@ print('labels_count => {0}'.format(labels_count))
     [0 1 2 3 4 5 6 7 8 9]
     10
     labels_count => 10
-
 
 
 ```python
@@ -203,7 +198,6 @@ print ('labels[{0}] => {1}'.format(Image_to_display,labels[Image_to_display]))
     labels[10] => [0 0 0 0 0 0 0 0 1 0]
 
 
-
 ```python
 # split data into training & validation
 validation_images = images[:Validation_size]
@@ -220,7 +214,6 @@ print('validation_images({0[0]},{0[1]})'.format(validation_images.shape))
     validation_images(2000,784)
 
 
-
 ```python
 #将数据分割成训练集和验证集
 validation_images = images[:Validation_size]
@@ -235,7 +228,6 @@ print('validation_images({0[0]},{0[1]})'.format(validation_images.shape))
 
     train_image(40000,784)
     validation_images(2000,784)
-
 
 
 ```python
@@ -407,7 +399,6 @@ sess.run(init)
     Use `tf.global_variables_initializer` instead.
 
 
-
 ```python
 #可视化变量
 train_accuracies = []
@@ -471,7 +462,6 @@ for i in range(Training_iterations):
     training_accuracy / validation_accuracy => 0.88 / 0.92 for step 1000
     training_accuracy / validation_accuracy => 1.00 / 0.96 for step 2000
     training_accuracy / validation_accuracy => 1.00 / 0.98 for step 2499
-
 
 
 ```python
@@ -539,7 +529,6 @@ np.savetxt('submission_softmax.csv',
 
     test_images(28000,784)
     predicted_lables(28000)
-
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/MINIST%2BProject%2B-%2BKaggle%2BCompetition/output_15_1.png)

@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Google Cloud Platform搭建VPS   # 标题 
+title:      【转】Google Cloud Platform搭建VPS   # 标题 
 subtitle:   VPS, Google Cloud Platform  #副标题
 date:       2017-12-20              # 时间
 author:     Brian                      # 作者

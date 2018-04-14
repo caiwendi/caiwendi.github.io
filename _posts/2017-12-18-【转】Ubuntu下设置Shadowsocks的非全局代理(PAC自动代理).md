@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Ubuntu下设置Shadowsocks的非全局代理（PAC自动代理） # 标题 
+title:      【转】Ubuntu下设置Shadowsocks的非全局代理（PAC自动代理） # 标题 
 subtitle:   Shadowsocks, PAC
 date:       2017-12-18              # 时间
 author:     Brian                      # 作者

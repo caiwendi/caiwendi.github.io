@@ -1,13 +1,13 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      【搬运】Softmax Regression,AutoEncoder Network # 标题 
+title:      【转】Softmax Regression,AutoEncoder Network # 标题 
 subtitle:   Softmax regression,AutoEncoder #副标题
 date:       2017-06-08              # 时间
 author:     Brian                      # 作者
 header-img: img/post-bg-os-metro.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - Tensorflow
+    - Tensorflow  - 转载
 ---
 
 # 1. Tensorflow学习笔记
@@ -63,7 +63,6 @@ sess.close()
     180 [[ 0.1000023   0.20000532]] [ 0.29999584]
     200 [[ 0.10000069  0.20000161]] [ 0.29999873]
 
-
 ```python
 import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
@@ -100,7 +99,6 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
     Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
 
-
 ```python
 print mnist.train.images.shape
 print mnist.train.labels.shape
@@ -116,7 +114,6 @@ print mnist.test.labels.shape
     (5000, 10)
     (10000, 784)
     (10000, 10)
-
 
 ```python
 import os
@@ -280,7 +277,6 @@ class AdditiveGaussianNoiseAutoencoder(object):
     /usr/lib/python2.7/dist-packages/simplejson/encoder.py:262: DeprecationWarning: Interpreting naive datetime as local 2017-04-25 12:05:28.449682. Please add timezone info to timestamps.
       chunks = self.iterencode(o, _one_shot=True)
 
-
 ```python
 #载入MNIST数据集
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
@@ -377,7 +373,7 @@ for epoch in range(training_epochs):
     ('epoch:', '0018', 'cost=', ' 8050.471460795')
     ('epoch:', '0019', 'cost=', ' 8168.497669318')
     ('epoch:', '0020', 'cost=', ' 8041.845478977')
-
+    
     /usr/lib/python2.7/dist-packages/simplejson/encoder.py:262: DeprecationWarning: Interpreting naive datetime as local 2017-04-25 12:05:34.097629. Please add timezone info to timestamps.
       chunks = self.iterencode(o, _one_shot=True)
 
@@ -465,6 +461,6 @@ print(accuracy.eval({x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0
     Extracting MNIST_data/t10k-images-idx3-ubyte.gz
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
     0.9782
-
+    
     /usr/lib/python2.7/dist-packages/simplejson/encoder.py:262: DeprecationWarning: Interpreting naive datetime as local 2017-04-25 13:21:33.208661. Please add timezone info to timestamps.
       chunks = self.iterencode(o, _one_shot=True)

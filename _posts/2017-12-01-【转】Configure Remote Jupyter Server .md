@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Configure the Jupyter server   # 标题 
+title:      【转】Configure the Jupyter server   # 标题 
 subtitle:   Jupyter Notebook #副标题
 date:       2017-12-20             # 时间
 author:     Brian                      # 作者
@@ -14,25 +14,25 @@ tags:       Tool                  #标签
 ### 1. Create an SSL certificate.
 
   `$ cd`
-  
+
   `$ mkdir ssl`
-  
+
   `$ cd ssl`
-  
+
   `$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout cert.key" -out "cert.pem" -batch`
-  
+
 
 ### 2. Create a password. You use this password to log in to the Jupyter notebook server from your client so you can access notebooks on the server.
   (a) Open the iPython terminal.
 
   `$ ipython`
-  
+
   At the iPython prompt, run the `passwd()` command to set the password. 
 
   `iPythonPrompt> from IPython.lib import passwd `
-  
+
   `iPythonPrompt> passwd()`
-  
+
   You get the password hash (For example, `sha1:examplefc216:3a35a98ed...`)
   (b) Record the password hash.
   (c) Exit the iPython terminal.

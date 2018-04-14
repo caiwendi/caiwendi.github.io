@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Machine Learning Algorithm           # 标题 
+title:      【转】Machine Learning Algorithm           # 标题 
 subtitle:   Gradient Descent, Logistic Regression, Naive Bayes,  SVM   #副标题
 date:       2017-10-01             # 时间
 author:     Brian                      # 作者

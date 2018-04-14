@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Skills of debugging model           # 标题 
+title:      【转】Skills of debugging model           # 标题 
 subtitle:   特征提升，模型正则化，模型检验，超参数搜索 #副标题
 date:       2017-09-18              # 时间
 author:     Brian                      # 作者
@@ -538,7 +538,6 @@ print(dt.score(X_test_fs,y_test))
       0.85982272  0.86386312]
 
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_6_1.png)
 
 
@@ -788,7 +787,6 @@ print('the R-squared value of Polynomial Regressor(Degree=4) performing on train
      [ 26.        ]]
 
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_9_1.png)
 
 
@@ -982,17 +980,14 @@ print('the accuracy is:',lasso_poly4.score(X_test_poly4_lasso,y_test))
      [ 26.        ]]
 
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_11_1.png)
 
 
     the accuracy is: 0.809588079577
     the accuracy is: 0.83889268736
 
-
     C:\Users\xxz\Anaconda3\lib\site-packages\sklearn\linear_model\coordinate_descent.py:466: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations
       ConvergenceWarning)
-
 
 ### 2.3 L2 Regularization
 
@@ -1173,7 +1168,6 @@ print(np.sum(Ridge_poly4.coef_ ** 2))
      [ 26.        ]]
 
 
-
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Skills%20of%20debugging%20model/output_13_1.png)
 
 
@@ -1184,7 +1178,6 @@ print(np.sum(Ridge_poly4.coef_ ** 2))
     the accuracy is: 0.837420175937
     [[ 0.         -0.00492536  0.12439632 -0.00046471 -0.00021205]]
     0.0154989652036
-
 
 ## 3. 模型检验 
 
@@ -1201,7 +1194,6 @@ print(np.sum(Ridge_poly4.coef_ ** 2))
 
 
     '\n模型检验主要有两种方法:\n(1) 留一验证\n(2) 交叉验证\n'
-
 
 
 ## 4. 超参数搜索 
@@ -1333,13 +1325,11 @@ print(gs.score(X_test,y_test))
     [CV] svc__C=10.0, svc__gamma=10.0 ....................................
     [CV] ........................... svc__C=10.0, svc__gamma=10.0 -   6.3s
 
-
     [Parallel(n_jobs=1)]: Done  36 out of  36 | elapsed:  3.8min finished
 ​    
 
     {'svc__C': 10.0, 'svc__gamma': 0.10000000000000001} 0.790666666667
     0.822666666667
-
 
 ### 4.2 Parallel Grid Search 
 
@@ -1404,4 +1394,3 @@ if __name__ == '__main__':
 
     {'svc__C': 10.0, 'svc__gamma': 0.10000000000000001} 0.790666666667
     0.822666666667
-

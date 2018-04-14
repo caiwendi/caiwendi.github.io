@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Supervised Learning Model           # 标题 
+title:      【转】Supervised Learning Model           # 标题 
 subtitle:   Classification Learning #副标题
 date:       2017-09-16              # 时间
 author:     Brian                      # 作者
@@ -275,11 +275,10 @@ print(classification_report(y_test,y_predict,target_names=news.target_names))
     
       - Any other high-performance VLB card
 
-
     Please post or email.  Thank you!
-
+    
       - Matt
-
+    
     -- 
         |  Matthew B. Lawson <------------> (mblawson@essex.ecn.uoknor.edu)  |   
       --+-- "Now I, Nebuchadnezzar, praise and exalt and glorify the King  --+-- 
@@ -563,13 +562,11 @@ print(classification_report(y_predict,y_test,target_names=['died','survived']))
     memory usage: 30.9+ KB
     None
 
-
     C:\Users\xxz\Anaconda3\lib\site-packages\pandas\core\generic.py:3191: SettingWithCopyWarning: 
     A value is trying to be set on a copy of a slice from a DataFrame
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-
 
     None
     <class 'pandas.core.frame.DataFrame'>
@@ -944,7 +941,6 @@ print(classification_report(gbc_y_pred,y_test,target_names=['died','survived']))
     
     See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       self._update_inplace(new_data)
-
 
     the accuracy of decision tree is 0.781155015198
                  precision    recall  f1-score   support

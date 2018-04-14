@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Machine Learning from Disaster of Titanic          # 标题 
+title:      【转】Machine Learning from Disaster of Titanic          # 标题 
 subtitle:   Random Forest, AdaBoost, Gradient Boosting, ExtraTrees, SVM, Cross Validation
 date:       2017-10-15              # 时间
 author:     Brian                      # 作者
@@ -259,7 +259,6 @@ sns.heatmap(train.astype(float).corr(),linewidths=0.1,vmax=1.0, square=True, cma
 
 
 
-
 ![](http://ww1.sinaimg.cn/large/b4c0024fgy1fkl4ie0mzqj20mc0ky76m.jpg)
 
 
@@ -281,7 +280,6 @@ g.set(xticklabels=[])
 
 
     <seaborn.axisgrid.PairGrid at 0x7f0ed009c3d0>
-
 
 
 
@@ -478,7 +476,6 @@ print("Training is complete")
 
     Training is complete
 
-
 **Feature importances generated from the different classifiers**
 
 现在学习了我们的一级分类器，我们可以利用Sklearn模型非常漂亮的功能，就是用一个非常简单的代码行输出训练和测试集中的各种特征的重要性。
@@ -501,7 +498,6 @@ gb_feature = gb.feature_importances(x_train,y_train)
       0.068]
     [ 0.07263123  0.03140828  0.09660243  0.03467843  0.12329197  0.04223265
       0.40450823  0.01648166  0.06881401  0.02429948  0.08505162]
-
 
 所以我还没有弄清楚如何直接分配和存储功能重要性。 因此，我将打印出上述代码中的值，然后简单地将其复制并粘贴到Python列表中（对于像我这样的渣渣而言）
 

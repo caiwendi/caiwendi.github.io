@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Unsupervised Learning           # 标题 
+title:      【转】Unsupervised Learning           # 标题 
 subtitle:   Reducing Dimension #副标题
 date:       2017-09-17              # 时间
 author:     Brian                      # 作者
@@ -179,7 +179,6 @@ plot_pca_scatter()
       -7.87394324e+00  -1.97542950e+00  -2.80337867e+00  -5.70773108e+00
        1.97880168e+01   8.16372094e+00   1.15713887e+01   8.96707599e+00
        1.54352343e+01]
-
 
 
 ![](https://raw.githubusercontent.com/xiezhongzhao/blog/gh-pages/_posts/Unsupervised%20Learning%20Model-Reducing%20Dimension/output_3_1.png)
