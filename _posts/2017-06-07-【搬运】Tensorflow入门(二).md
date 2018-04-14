@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Convolutional Neural Network         # 标题 
+title:      【搬运】Convolutional Neural Network         # 标题 
 subtitle:   卷积神经网络  #副标题
 date:       2017-06-07              # 时间
 author:     Brian                      # 作者
@@ -31,7 +31,6 @@ sess = tf.InteractiveSession()
     Extracting MNIST_data/train-labels-idx1-ubyte.gz
     Extracting MNIST_data/t10k-images-idx3-ubyte.gz
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
-
 
 
 ```python
@@ -114,7 +113,6 @@ print (h_pool2.shape)
     (?, 7, 7, 64)
 
 
-
 ```python
 '''
 定义一个全连接层:
@@ -133,7 +131,6 @@ print (h_fc1.shape)
     (?, 1024)
 
 
-
 ```python
 '''
 定义一个Dropout层:
@@ -149,7 +146,6 @@ print h_fc1_drop.shape
     (?, 1024)
 
 
-
 ```python
 '''
 最后将Dropout层的输出连接一个Softmax层,得到最后的概率输出
@@ -161,7 +157,6 @@ print y_conv.shape
 ```
 
     (?, 10)
-
 
 
 ```python
@@ -401,7 +396,6 @@ for i in range(20000):
     step 19900     , training accuracy 1
 
 
-
 ```python
 '''
 在最终的数据集上进行全面测试,得到整体的分类的准确率
@@ -411,7 +405,6 @@ print("test_accuracy %g"%accuracy.eval(feed_dict={x: mnist.test.images, y_: mnis
 
     test_accuracy 0.9923
 
-
 ## 2. TensorFlow 实现进阶的卷积神经网络
 
 
@@ -420,7 +413,6 @@ cd /home/xzz/code/python_tensorflow/models-master/tutorials/image/cifar10/
 ```
 
     /home/xzz/code/python_tensorflow/models-master/tutorials/image/cifar10
-
 
 
 ```python
@@ -479,7 +471,6 @@ images_train, labels_train = cifar10_input.distorted_inputs(data_dir = data_dir,
     Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
 
 
-
 ```python
 '''
 cifar10_input.inputs函数生成测试数据,不需要太多的处理,将图片裁剪为24*24大小的区块,进行数据的标准化处理
@@ -528,7 +519,6 @@ print 'norm', norm1
     norm Tensor("LRN:0", shape=(128, 12, 12, 64), dtype=float32)
 
 
-
 ```python
 '''
 (1)开始创建第二个卷积层
@@ -547,7 +537,6 @@ print batch_size
 
     pool Tensor("MaxPool_1:0", shape=(128, 6, 6, 64), dtype=float32)
     128
-
 
 
 ```python
@@ -579,7 +568,6 @@ print 'local3', local3
     local3 Tensor("Relu_4:0", shape=(128, 384), dtype=float32)
 
 
-
 ```python
 '''
 与前一个全连接层一样,就是隐藏节点下降一半,只有192个,其他的超参数保持不变
@@ -591,7 +579,6 @@ print 'local4', local4
 ```
 
     local4 Tensor("Relu_5:0", shape=(128, 192), dtype=float32)
-
 
 
 ```python
@@ -607,7 +594,6 @@ print 'logits', logits.shape
 
     weight5 Tensor("Variable_8/read:0", shape=(192, 10), dtype=float32)
     logits (128, 10)
-
 
 
 ```python
@@ -682,7 +668,6 @@ tf.train.start_queue_runners()
      <Thread(Thread-35, started daemon 139820084938496)>,
      <Thread(Thread-36, started daemon 139820076545792)>,
      <Thread(Thread-37, started daemon 139820068153088)>]
-
 
 
 
@@ -10710,7 +10695,6 @@ for step in range(max_step):
     step 99990, loss=0.50  (1979.7  examples/sec;  0.065  sec/batch)
 
 
-
 ```python
 '''
 评测模型在测试集上的准确率,测试集10000个样本
@@ -10738,7 +10722,6 @@ print total_sample_count
     9984
 
 
-
 ```python
 '''
 最后将准确率的评测结果计算并打印出来
@@ -10752,4 +10735,3 @@ print  ("分类正确率是: %.3f" % precision)
     8051
     9984
     分类正确率是: 0.806
-

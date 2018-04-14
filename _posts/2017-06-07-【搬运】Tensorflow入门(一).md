@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Softmax Regression,AutoEncoder Network # 标题 
+title:      【搬运】Softmax Regression,AutoEncoder Network # 标题 
 subtitle:   Softmax regression,AutoEncoder #副标题
 date:       2017-06-08              # 时间
 author:     Brian                      # 作者
@@ -64,7 +64,6 @@ sess.close()
     200 [[ 0.10000069  0.20000161]] [ 0.29999873]
 
 
-
 ```python
 import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
@@ -78,7 +77,6 @@ print (sess.run(a+b) )
 
     Hello, TensorFlow!
     42
-
 
 # 2. Softmax Regression手写识别
 
@@ -103,7 +101,6 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
 
 
-
 ```python
 print mnist.train.images.shape
 print mnist.train.labels.shape
@@ -119,7 +116,6 @@ print mnist.test.labels.shape
     (5000, 10)
     (10000, 784)
     (10000, 10)
-
 
 
 ```python
@@ -157,7 +153,6 @@ print (accuracy.eval({x: mnist.test.images, y_: mnist.test.labels}))
 ```
 
     0.9204
-
 
 # 3. 自编码器及多层感知机
 
@@ -286,7 +281,6 @@ class AdditiveGaussianNoiseAutoencoder(object):
       chunks = self.iterencode(o, _one_shot=True)
 
 
-
 ```python
 #载入MNIST数据集
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
@@ -384,10 +378,8 @@ for epoch in range(training_epochs):
     ('epoch:', '0019', 'cost=', ' 8168.497669318')
     ('epoch:', '0020', 'cost=', ' 8041.845478977')
 
-
     /usr/lib/python2.7/dist-packages/simplejson/encoder.py:262: DeprecationWarning: Interpreting naive datetime as local 2017-04-25 12:05:34.097629. Please add timezone info to timestamps.
       chunks = self.iterencode(o, _one_shot=True)
-
 
 ## 3.2 多层感知机
 
@@ -474,7 +466,5 @@ print(accuracy.eval({x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0
     Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
     0.9782
 
-
     /usr/lib/python2.7/dist-packages/simplejson/encoder.py:262: DeprecationWarning: Interpreting naive datetime as local 2017-04-25 13:21:33.208661. Please add timezone info to timestamps.
       chunks = self.iterencode(o, _one_shot=True)
-

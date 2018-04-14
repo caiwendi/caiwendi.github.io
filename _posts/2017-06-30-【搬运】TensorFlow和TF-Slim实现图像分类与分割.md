@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Image Classification and Segmentation with Tensorflow and TF-Slim           # 标题 
+title:      【搬运】Image Classification and Segmentation with Tensorflow and TF-Slim           # 标题 
 subtitle:   TF-Slim, image segmentation #副标题
 date:       2017-06-30              # 时间
 author:     Brian                      # 作者
@@ -60,7 +60,6 @@ dataset_utils.download_and_uncompress_tarball(url, checkpoints_dir)
 
     >> Downloading vgg_16_2016_08_28.tar.gz 100.0%
     Successfully downloaded vgg_16_2016_08_28.tar.gz 513324920 bytes.
-
 
 ## 2. 图像分类
 (1)我们刚刚下载的模型可以将图像分成1000类。类别的覆盖度非常广。在本文中，我们就用这个预训练的模型来给图片分类、标注和分割，映射到这1000个类别。   
@@ -167,15 +166,14 @@ res = slim.get_model_variables()
 
 
     Probability 1.00 => [school bus]
-
+    
     Probability 0.00 => [minibus]
-
+    
     Probability 0.00 => [passenger car, coach, carriage]
-
+    
     Probability 0.00 => [trolleybus, trolley coach, trackless trolley]
-
+    
     Probability 0.00 => [cab, hack, taxi, taxicab]
-
 
 ## 3. 图片标注和分割
 
