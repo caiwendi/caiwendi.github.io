@@ -1,18 +1,17 @@
-# Site settings
-title: XZZ Blog
-SEOTitle: 谢中朝的博客 | XXZ Blog
-header-img: img/moon.jpg
-email: xiezhongzhao01@gmail.com
-description: "Every failure is leading towards success."
-keyword: "XXZ, XXZ Blog, 谢中朝的博客, xiezhongzhao, 谢中朝, Machine Learning, Deep learning, Computer Vision"
-url: "http://xiezhongzhao.top"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/xiezhongzhao/xiezhongzhao.github.io" # you code repository
+#Site Setting
+title: Kiri Blog
+SEOTitle: 蔡文迪的博客 | Kiri Blog
+header-img: img/post-bg-universe.jpg
+email: ccaiwendi@163.com
+description: "El Psy Congroo!"
+keywords: "Blog"
+url: "caiwendi.github.io"
+baserul: ""
+github_repo: "https://github.com/caiwendi/caiwendi.github.io.git"
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-XXZ-gentle.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: ture
+sidebar-about-description: "全てはシュタインズゲートの选択だ!"
+sidebar-avatar: /img/Steins.jpg
 
 # SNS settings
 RSS: false
@@ -23,12 +22,12 @@ RSS: false
 
 #BASE_PATH:
 
-# weibo_username:     qiubaiying
-zhihu_username:     xiezhongzhao
-github_username:    xiezhongzhao
-facebook_username:  Zhongzhao%20Xie 
-#jianshu_username:   e71990ada2fd
-twitter_username:   Brian930814
+weibo_username:     E1Psy_Congroo
+zhihu_username:     E1PsyCongroo
+github_username:    caiwendi
+#facebook_username:   
+#jianshu_username:   
+twitter_username:   Cavan_fiction
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -61,23 +60,7 @@ mathjax:
 # 评论系统
 
 # Disqus settings（https://disqus.com/）
-disqus_username: xiezhongzhaoblog-1
-
-# 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
-# Duoshuo settings
-# duoshuo_username: qiubaiying
-# Share component is depend on Comment so we can NOT use share only.
-# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 1f554301065d0e621e4352926d46b9b5
-
-# Google Analytics
-ga_track_id: 'UA-108002748-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto 
-
+disqus_username: caiwendi
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
@@ -86,7 +69,6 @@ featured-condition-size: 0            # 相同标签数量大于这个数，才�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
 
 # Friends
 friends: [
