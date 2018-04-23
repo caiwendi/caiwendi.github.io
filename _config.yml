@@ -1,67 +1,126 @@
-#
-###################################
-# Site wide configuration
-####################################
-#
-title: Kiri's Blog
+#Site Setting
+title: Kiri Blog
+SEOTitle: 蔡文迪的博客 | Kiri Blog
+header-img: img/post-bg-universe.jpg
 email: ccaiwendi@163.com
-description: El Psy Congroo!
-url: caiwendi.github.io # the base hostname & protocol for your site
-keywords: ["Deep Learning", "CV", "Python"]
+description: "El Psy Congroo!"
+keywords: "Blog"
+url: "caiwendi.github.io"
+baserul: ""
+github_repo: "https://github.com/caiwendi/caiwendi.github.io.git"
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          Europe/Paris
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+sidebar: ture
+sidebar-about-description: "全てはシュタインズゲートの选択だ!"
+sidebar-avatar: /img/Steins.png
 
+# SNS settings
+RSS: false
+#RSS: feed.xml
+
+#categories_path: categories
+#archive_path: archives
+
+#BASE_PATH:
+
+weibo_username:     E1Psy_Congroo
+zhihu_username:     E1PsyCongroo
+github_username:    caiwendi
+#facebook_username:   
+#jianshu_username:   
+twitter_username:   Cavan_fiction
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+  input: GFM                            # use Github Flavored Markdown !important
 
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "PHP & Ruby Developer"
-  bio: "A backend developer who loves design awesome things. Working for RendezvousCheznous atm in Marseille, France."
-  email: zourenyuan@gmail.com
-  disqus-shortname: renyuanzblog
-  twitter: renyuan814 #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: UA-62251910-2
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: caiwendi #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: renyuan-zou-69b7038a #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-  telegram: #username
+
+
+# MathJax Support
+mathjax:
+​     enable: true
+​     per_page: true
+​     cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+# 评论系统
+
+# Disqus settings（https://disqus.com/）
+disqus_username: caiwendi
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0            # 相同标签数量大于这个数，才会出现在首页
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# Friends
+friends: [
+    {
+        title: "Andrew Ng",
+        href: "http://www.andrewng.org/"
+    },
+    
+    {
+        title: "Research at Google",
+        href: "https://research.google.com/"
+    },
+    
+    {
+        title: "Facebook-AI-Research",
+        href: "https://research.fb.com/category/facebook-ai-research-fair/"
+    },
+    
+    {
+        title: "Justin Johnson",
+        href: "https://cs.stanford.edu/people/jcjohns/"
+    },
+    
+    {
+        title: "Stanford Vision Lab",
+        href: "http://vision.stanford.edu/publications.html"
+    },
+    
+    {
+        title: "Andrej Karpathy",
+        href: "https://cs.stanford.edu/people/karpathy/"
+    },
+    
+    {
+        title: "Geoffrey E. Hinton",
+        href: "http://www.cs.toronto.edu/~hinton/"
+    },
+    
+    {
+        title: "Yoshua Bengio",
+        href: "https://mila.quebec/en/person/bengio-yoshua/"
+    },
+    
+    {
+        title: "Yann LeCun",
+        href: "http://yann.lecun.com/"
+    },
+    
+    {
+        title: "Brain",
+        href: "http://xiezhongzhao.top/"
+    }
+    
+]
+
