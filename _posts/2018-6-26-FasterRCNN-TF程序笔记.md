@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Faster RCNN TF        # 标题
+title:      TF-Faster-RCNN        # 标题
 date:       2018-6-26             # 时间
 author:     Kiri                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
