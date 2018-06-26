@@ -58,6 +58,10 @@ mathjax:
 ​     cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 
+# Google Analytics
+ga_track_id: 'UA-121403414-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 0            # 相同标签数量大于这个数，才会出现在首页
