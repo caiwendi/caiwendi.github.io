@@ -57,10 +57,6 @@ mathjax:
 ​     per_page: true
 ​     cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
-# 评论系统
-comment:
-# Disqus settings（https://disqus.com/）
-disqus_username: k1ri
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
