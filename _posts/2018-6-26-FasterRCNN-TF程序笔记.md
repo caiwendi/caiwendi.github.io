@@ -9,17 +9,6 @@ tags:                               #标签
     - 程序
 ---
 
-<html>
-<head>
-<title>MathJax TeX Test Page</title>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-</head>
-<body>
-
 # TF-Faster-RCNN
 ### Prerequisites
 * CUDA 8.0
@@ -593,3 +582,31 @@ Recompute with `./tools/reval.py --matlab ...` for your paper.
 240inputs+103984outputs (0major+499344minor)pagefaults 0swaps
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>MathJax TeX Test Page</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+</head>
+<body>
