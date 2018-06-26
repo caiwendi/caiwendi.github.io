@@ -60,7 +60,7 @@ mathjax:
 # 评论系统
 
 # Disqus settings（https://disqus.com/）
-disqus_username: wendicai
+disqus_username: caiwendi
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
