@@ -58,7 +58,7 @@ mathjax:
 ​     cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # 评论系统
-
+comment:
 # Disqus settings（https://disqus.com/）
 disqus_username: k1ri
 
