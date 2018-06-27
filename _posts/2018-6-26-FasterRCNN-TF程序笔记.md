@@ -194,6 +194,35 @@ Chorme: IP:7001/7002
 * FC 6: $4096$
 * FC 7: $4096$
 
+- Learning Rate: 0.001/0.0001
+- Mini-batches: 60k/20k
+- Momentunm: 0.9
+- Weight Decay: 0.0005
+- Fine-tuned: Conv 3_1 and up
+
+```py
+def _image_to_head(self, is_training, reuse=None):
+  with tf.variable_scope(self._scope, self._scope, reuse=reuse):
+    net = slim.repeat(self._image, 2, slim.conv2d, 64, [3, 3],
+                      trainable=False, scope='conv1')
+    net = slim.max_pool2d(net, [2, 2], padding='SAME', scope='pool1')
+    net = slim.repeat(net, 2, slim.conv2d, 128, [3, 3],
+                      trainable=False, scope='conv2')
+    net = slim.max_pool2d(net, [2, 2], padding='SAME', scope='pool2')
+    net = slim.repeat(net, 3, slim.conv2d, 256, [3, 3],
+                      trainable=is_training, scope='conv3')
+    net = slim.max_pool2d(net, [2, 2], padding='SAME', scope='pool3')
+    net = slim.repeat(net, 3, slim.conv2d, 512, [3, 3],
+                      trainable=is_training, scope='conv4')
+    net = slim.max_pool2d(net, [2, 2], padding='SAME', scope='pool4')
+    net = slim.repeat(net, 3, slim.conv2d, 512, [3, 3],
+                      trainable=is_training, scope='conv5')
+
+  self._act_summaries.append(net)
+  self._layers['head'] = net
+
+  return net
+```
 ###
 
 
