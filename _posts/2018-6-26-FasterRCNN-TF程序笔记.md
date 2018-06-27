@@ -632,8 +632,6 @@ Recompute with `./tools/reval.py --matlab ...` for your paper.
 
 
 
-
-
 <html>
 <head>
 <title>MathJax TeX Test Page</title>
