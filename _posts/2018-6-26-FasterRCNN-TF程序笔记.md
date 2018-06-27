@@ -29,11 +29,11 @@ cd tf-faster-rcnn/lib
 # Change the GPU architecture (-arch) if necessary
 vim setup.py
 ```
-GPU model | Architecture
-----|-------------------
-TitanX | sm_52
-GTX 960M | sm_50
-GTX 1080 Ti | sm_61
+|GPU model | Architecture|
+|-|-|
+|TitanX | sm_52|
+|GTX 960M | sm_50|
+|GTX 1080 Ti | sm_61|
 
 ##### 3. Build the Cython modules
 ```
