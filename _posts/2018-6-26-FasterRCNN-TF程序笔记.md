@@ -13,10 +13,22 @@ tags:                               #标签
 ### Prerequisites
 * CUDA 8.0
 * CuDnn 5.0
-* TensorFlow r1.2: sudo pip install tensorflow-gpu==1.2
-* Cython: sudo pip install cython
-* opencv-python: sudo pip install opencv-python
-* easydist: sudo pip install easydist
+* TensorFlow r1.2
+```
+sudo pip install tensorflow-gpu==1.2
+```
+* Cython
+```
+sudo pip install cython
+```
+* opencv-python
+```
+sudo pip install opencv-python
+```
+* easydist
+```
+sudo pip install easydist
+```
 
 ### Installation
 ##### 1. Clone the repository
