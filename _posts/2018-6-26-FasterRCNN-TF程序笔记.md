@@ -32,11 +32,11 @@ sudo pip install easydist
 
 ### Installation
 ##### 1. Clone the repository
-```
+```shell
 git clone https://github.com/endernewton/tf-faster-rcnn.git
 ```
 ##### 2. Update your-arch in setup script to match your GPU
-```
+```shell
 cd tf-faster-rcnn/lib
 # Change the GPU architecture (-arch) if necessary
 vim setup.py
@@ -66,13 +66,13 @@ Extension('nms.gpu_nms',
 ```
 
 ##### 3. Build the Cython modules
-```
+```shell
 make clean
 make
 cd ..
 ```
 ##### 4. Install the Python COCO API
-```
+```shell
 cd data
 git clone https://github.com/pdollar/coco.git
 cd coco/PythonAPI
@@ -85,26 +85,26 @@ cd ../../..
 #### PASCAL VOC 2007
 
 ##### 1. Download the training, validation, test data and VOCdevkit
-```
+```shell
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCdevkit_08-Jun-2007.tar
 ```
 
 ##### 2. Extract all of these tars into one directory named ```VOCdevkit```
-```
+```shell
 tar xvf VOCtrainval_06-Nov-2007.tar
 tar xvf VOCtest_06-Nov-2007.tar
 tar xvf VOCdevkit_08-Jun-2007.tar
 ```
 ##### 3. Create symlinks for the PASCAL VOC dataset
-```
+```shell
 cd $FRCN_ROOT/data
 ln -s $VOCdevkit VOCdevkit2007
 ```
 #### MS COCO
 Install the MS COCO dataset at /path/to/coco
-```
+```shell
 cd $FRCN_ROOT/data
 ln -s $COCO coco
 ```
@@ -112,32 +112,32 @@ ln -s $COCO coco
 ##### 1. Download pre-trained models
 Downlod Link: [Google Driver](https://drive.google.com/drive/folders/0B1_fAEgxdnvJSmF3YUlZcHFqWTQ)
 ##### 2. Create a folder and a soft link to use the pre-trained model
-```
-NET=res101
-TRAIN_IMDB=voc_2007_trainval+voc_2012_trainval
+```shell
+#NET=res101
+#TRAIN_IMDB=voc_2007_trainval+voc_2012_trainval
 mkdir -p output/${NET}/${TRAIN_IMDB}
 cd output/${NET}/${TRAIN_IMDB}
 ln -s ../../../data/voc_2007_trainval+voc_2012_trainval ./default
 cd ../../..
 ```
 ##### 3. Demo for testing on custom images
-```
+```shell
 # at repository root
-GPU_ID=0
+#GPU_ID=0
 CUDA_VISIBLE_DEVICES=${GPU_ID} ./tools/demo.py
 ```
 **Note**: Resnet101 testing probably requires several gigabytes of memory, so if you encounter memory capacity issues, please install it with CPU support only. Refer to [Issue 25](https://github.com/endernewton/tf-faster-rcnn/issues/25)
 
 ##### 4. Test with pre-trained Resnet101 models
-```
-GPU_ID=0
+```shell
+#GPU_ID=0
 ./experiments/scripts/test_faster_rcnn.sh $GPU_ID pascal_voc_0712 res101
 ```
 **Note**: If you cannot get the reported numbers (79.8 on my side), then probably the NMS function is compiled improperly, refer to [Issue 5](https://github.com/endernewton/tf-faster-rcnn/issues/5)
 ###Train model
 ###### 1. Download pre-trained models and weights.
 Download [pre-trained models](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models)
-```
+```shell
 mkdir -p data/imagenet_weights
 cd data/imagenet_weights
 wget -v http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz
@@ -146,8 +146,8 @@ mv vgg_16.ckpt vgg16.ckpt
 cd ../..
 ```
 ##### 2. Train
-```
-./experiments/scripts/train_faster_rcnn.sh [GPU_ID] [DATASET] [NET]
+```shell
+#./experiments/scripts/train_faster_rcnn.sh [GPU_ID] [DATASET] [NET]
 # GPU_ID is the GPU you want to test on
 # NET in {vgg16, res50, res101, res152} is the network arch to use
 # DATASET {pascal_voc, pascal_voc_0712, coco} is defined in train_faster_rcnn.sh
@@ -156,14 +156,14 @@ cd ../..
 ./experiments/scripts/train_faster_rcnn.sh 1 coco res101
 ```
 ##### 3. Visualization with Tensorboard
-```
+```shell
 tensorboard --logdir=tensorboard/vgg16/voc_2007_trainval/ --port=7001 &
 tensorboard --logdir=tensorboard/vgg16/coco_2014_train+coco_2014_valminusminival/ --port=7002 &
 ```
 Chorme: IP:7001/7002
 ##### 4. Test and evaluate
-```
-./experiments/scripts/test_faster_rcnn.sh [GPU_ID] [DATASET] [NET]
+```shell
+#./experiments/scripts/test_faster_rcnn.sh [GPU_ID] [DATASET] [NET]
 # GPU_ID is the GPU you want to test on
 # NET in {vgg16, res50, res101, res152} is the network arch to use
 # DATASET {pascal_voc, pascal_voc_0712, coco} is defined in test_faster_rcnn.sh
@@ -196,7 +196,7 @@ Chorme: IP:7001/7002
 
 
 ### Training Log (VGG-16)
-```
+```shell
 + echo Logging output to experiments/logs/vgg16_voc_2007_trainval__vgg16.txt.2018-06-25_15-39-57
 Logging output to experiments/logs/vgg16_voc_2007_trainval__vgg16.txt.2018-06-25_15-39-57
 + set +x
