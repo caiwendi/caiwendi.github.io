@@ -49,14 +49,18 @@ cd coco/PythonAPI
 make
 cd ../../..
 ```
+
 ###Setup data
+
 #### PASCAL VOC 2007
+
 ##### 1. Download the training, validation, test data and VOCdevkit
 ```
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCdevkit_08-Jun-2007.tar
 ```
+
 ##### 2. Extract all of these tars into one directory named ```VOCdevkit```
 ```
 tar xvf VOCtrainval_06-Nov-2007.tar
