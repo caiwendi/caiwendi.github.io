@@ -14,19 +14,19 @@ tags:                               #标签
 * CUDA 8.0
 * CuDnn 5.0
 * TensorFlow r1.2
-```
+```shell
 sudo pip install tensorflow-gpu==1.2
 ```
 * Cython
-```
+```shell
 sudo pip install cython
 ```
 * opencv-python
-```
+```shell
 sudo pip install opencv-python
 ```
 * easydist
-```
+```shell
 sudo pip install easydist
 ```
 
