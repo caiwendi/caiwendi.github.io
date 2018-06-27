@@ -45,7 +45,7 @@ vim setup.py
 * GTX 960M: sm_50
 * GTX 1080 Ti: sm_61
 
-```python
+```py
 Extension('nms.gpu_nms',
         ['nms/nms_kernel.cu', 'nms/gpu_nms.pyx'],
         library_dirs=[CUDA['lib64']],
