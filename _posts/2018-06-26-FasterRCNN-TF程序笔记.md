@@ -237,8 +237,6 @@ def _head_to_tail(self, pool5, is_training, reuse=None):
 
   return fc7
 ```
-###
-
 
 ### Training Log (VGG-16)
 ```
