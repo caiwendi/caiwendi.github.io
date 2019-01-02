@@ -39,7 +39,7 @@ if IoU > 0.7 p = 1
 
   Anchors: $(x_a,y_a,w_a,h_a)$
 
-  prediction: $(x,y,w,h)$
+  prediction: $(x,y,w,h)​$
 
   $$
   t=((x-x_a)/w_a, (y-y_a)/h_a, \log w/w_a, \log h/h_a)
@@ -51,6 +51,9 @@ if IoU > 0.7 p = 1
 
 
   计算$t$和$t^*$的损失
+
+  ![pic2](https://github.com/caiwendi/caiwendi.github.io/raw/master/img/RPN.png)
+
 
 
 
