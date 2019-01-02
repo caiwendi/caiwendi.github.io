@@ -1,9 +1,9 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Generate Anchors         # 标题
+title:      基于候选区域的目标检测算法（2）——Anchors         # 标题
 date:       2018-12-28             # 时间
 author:     Kiri                      # 作者
-header-img: img/kiri-bg-mayday.jpg   #这篇文章标题背景图片
+header-img: img/home-bg-mayday.jpg   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 笔记
@@ -48,6 +48,7 @@ if IoU > 0.7 p = 1
   $$
   t^*=((x^*-x_a)/w_a,(y^*-y_a)/h_a,\log w^*/w_a,\log h^*/h_a)
   $$
+
 
 
 
