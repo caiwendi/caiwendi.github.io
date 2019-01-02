@@ -29,17 +29,17 @@ if IoU > 0.7 p = 1
 
   - 损失定义：
 
-  计算预测结果类与真实结果类之间的损失
+  判断是背景还是前景，进行损失计算
 
 - 回归（regression）：预测边界框（bounding-box）
 
   - 损失定义：
 
-  GroundTruth: $(x^*,y^*,w^*,h^*)$
+  GroundTruth: $$(x^*,y^*,w^*,h^*)$$
 
-  Anchors: $(x_a,y_a,w_a,h_a)$
+  Anchors: $(x_a,y_a,w_a,h_a)​$
 
-  prediction: $(x,y,w,h)​$
+  prediction: $(x,y,w,h)$
 
   $$
   t=((x-x_a)/w_a, (y-y_a)/h_a, \log w/w_a, \log h/h_a)
@@ -48,6 +48,7 @@ if IoU > 0.7 p = 1
   $$
   t^*=((x^*-x_a)/w_a,(y^*-y_a)/h_a,\log w^*/w_a,\log h^*/h_a)
   $$
+
 
 
   计算$t$和$t^*$的损失
