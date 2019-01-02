@@ -41,9 +41,14 @@ if IoU > 0.7 p = 1
 
   prediction: $(x,y,w,h)$
 
-  $t=((x-x_a)/w_a, (y-y_a)/h_a, \log w/w_a, \log h/h_a)$
+  $$
+  t=((x-x_a)/w_a, (y-y_a)/h_a, \log w/w_a, \log h/h_a)
+  $$
 
-  $t^*=((x^*-x_a)/w_a,(y^*-y_a)/h_a,\log w^*/w_a,\log h^*/h_a)$
+  $$
+  t^*=((x^*-x_a)/w_a,(y^*-y_a)/h_a,\log w^*/w_a,\log h^*/h_a)
+  $$
+
 
   计算$t$和$t^*$的损失
 
