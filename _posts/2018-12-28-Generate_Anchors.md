@@ -37,7 +37,7 @@ if IoU > 0.7 p = 1
 
   GroundTruth: $$(x^*,y^*,w^*,h^*)$$
 
-  Anchors: $(x_a,y_a,w_a,h_a)​$
+  Anchors: $(x_a,y_a,w_a,h_a)$
 
   prediction: $(x,y,w,h)$
 
@@ -51,12 +51,69 @@ if IoU > 0.7 p = 1
 
 
 
-
   计算$t$和$t^*$的损失
 
   ![pic2](https://github.com/caiwendi/caiwendi.github.io/raw/master/img/RPN.png)
 
 # Generate Anchors
+
+具体实现代码如下：
+
+```python
+def generate_anchors(stride=16, size=(32, 64, 128), aspect_ratios=(0.5, 1, 2)):
+    return _generate_anchors(
+        stride,
+        np.array(size, dtype=np.float) / stride,
+        np.array(aspect_ratios, dtype=np.float),
+    )
+#------------------------------------------------------------------------------------#
+#anchors:((x1, y1, x2, y2),.....)
+#bbox:((ctr_x+x1, ctr_y+y1, ctr_x+x2, ctr_y+y2),.....)
+#------------------------------------------------------------------------------------#
+
+def _generate_anchors(base_size, scales, aspect_ratios):
+    anchor = np.array([1, 1, base_size, base_size], dtype=np.float) - 1
+    anchors = _ratio_enum(anchor, aspect_ratios)
+    anchors = np.vstack([_scale_enum(anchors[i, :], scales) for i in range(anchors.shape[0])])
+    return torch.from_numpy(anchors)
+
+def _whctrs(anchor):
+    w = anchor[2] - anchor[0] + 1
+    h = anchor[3] - anchor[1] + 1
+    x_ctr = anchor[0] + 0.5 * (w - 1)
+    y_ctr = anchor[1] + 0.5 * (h - 1)
+    return w, h, x_ctr, y_ctr
+
+def _mkanchors(ws, hs, x_ctr, y_ctr):
+    ws = ws[:, np.newaxis]
+    hs = hs[:, np.newaxis]
+    anchors = np.hstack(
+        (
+            x_ctr - 0.5 * (ws - 1),
+            y_ctr - 0.5 * (hs - 1),
+            x_ctr + 0.5 * (ws - 1),
+            y_ctr + 0.5 * (hs - 1),
+        )
+    )
+    return anchors
+
+def _ratio_enum(anchor, ratios):
+    w, h, x_ctr, y_ctr = _whctrs(anchor)
+    size = w * h
+    size_ratios = size / ratios
+    ws = np.round(np.sqrt(size_ratios))
+    hs = np.round(ws * ratios)
+    anchors = _mkanchors(ws, hs, x_ctr, y_ctr)
+    return anchors
+
+def _scale_enum(anchor, scales):
+    w, h, x_ctr, y_ctr = _whctrs(anchor)
+    ws = w * scales
+    hs = h * scales
+    anchors = _mkanchors(ws, hs, x_ctr, y_ctr)
+    return anchors
+
+```
 
 
 
