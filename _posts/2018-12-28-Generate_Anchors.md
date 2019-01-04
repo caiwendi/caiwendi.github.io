@@ -51,6 +51,7 @@ if IoU > 0.7 p = 1
 
 
 
+
   计算$t$和$t^*$的损失
 
   ![pic2](https://github.com/caiwendi/caiwendi.github.io/raw/master/img/RPN.png)
@@ -61,15 +62,20 @@ if IoU > 0.7 p = 1
 
 ```python
 def generate_anchors(stride=16, size=(32, 64, 128), aspect_ratios=(0.5, 1, 2)):
+    """
+    生成anchors原理：
+    （1）先对anchor生成不同aspect_ratios下的base_anchors
+    （2）再根据实际设计的anchor的尺寸，将base_anchors进行扩大，扩大倍数就是size / stride
+    :param stride: anchor的步长
+    :param size: 候选框的尺寸
+    :param aspect_ratios: 候选框的长宽比
+    :return: anchors ((x1, y1, x2, y2),.....)
+    """
     return _generate_anchors(
         stride,
         np.array(size, dtype=np.float) / stride,
         np.array(aspect_ratios, dtype=np.float),
     )
-#------------------------------------------------------------------------------------#
-#anchors:((x1, y1, x2, y2),.....)
-#bbox:((ctr_x+x1, ctr_y+y1, ctr_x+x2, ctr_y+y2),.....)
-#------------------------------------------------------------------------------------#
 
 def _generate_anchors(base_size, scales, aspect_ratios):
     anchor = np.array([1, 1, base_size, base_size], dtype=np.float) - 1
