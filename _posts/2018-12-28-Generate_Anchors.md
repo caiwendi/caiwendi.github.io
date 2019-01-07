@@ -52,6 +52,7 @@ if IoU > 0.7 p = 1
 
 
 
+
   计算$t$和$t^*$的损失
 
   ![pic2](https://github.com/caiwendi/caiwendi.github.io/raw/master/img/RPN.png)
@@ -78,12 +79,24 @@ def generate_anchors(stride=16, size=(32, 64, 128), aspect_ratios=(0.5, 1, 2)):
     )
 
 def _generate_anchors(base_size, scales, aspect_ratios):
+    """
+    生成anchors
+    :param base_size: 基本anchor的尺寸
+    :param scales: anchor的尺寸
+    :param aspect_ratios: 长宽比
+    :return: anchors detype=torch.float64
+    """
     anchor = np.array([1, 1, base_size, base_size], dtype=np.float) - 1
     anchors = _ratio_enum(anchor, aspect_ratios)
     anchors = np.vstack([_scale_enum(anchors[i, :], scales) for i in range(anchors.shape[0])])
     return torch.from_numpy(anchors)
 
 def _whctrs(anchor):
+    """
+    返回anchor的宽度、高度以及中心点的坐标
+    :param anchor: (x1, y1, x2, y2)
+    :return: w, h, x_ctr, y_ctr
+    """
     w = anchor[2] - anchor[0] + 1
     h = anchor[3] - anchor[1] + 1
     x_ctr = anchor[0] + 0.5 * (w - 1)
@@ -91,6 +104,14 @@ def _whctrs(anchor):
     return w, h, x_ctr, y_ctr
 
 def _mkanchors(ws, hs, x_ctr, y_ctr):
+	"""
+    给定中心点和长宽，返回对应的anchors
+    :param ws: 设定的宽度
+    :param hs: 设定的高度
+    :param x_ctr: 中心点x坐标
+    :param y_ctr: 中心点y坐标
+    :return: anchors
+    """
     ws = ws[:, np.newaxis]
     hs = hs[:, np.newaxis]
     anchors = np.hstack(
