@@ -6,7 +6,7 @@ author:     Kiri                      # 作者
 header-img: img/post-bg-img.jpg   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - 笔记
+    - 基于候选区域的目标检测算法
 ---
 
 # Anchors
