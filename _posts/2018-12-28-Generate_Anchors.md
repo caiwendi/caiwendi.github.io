@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      基于候选区域的目标检测算法        # 标题
-subtitle:   Anchors
+title:      Anchors        # 标题
+subtitle:   基于候选区域的目标检测算法
 date:       2018-12-28             # 时间
 author:     Kiri                      # 作者
 header-img: img/post-bg-img.jpg   #这篇文章标题背景图片
