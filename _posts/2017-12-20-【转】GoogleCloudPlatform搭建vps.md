@@ -101,6 +101,27 @@ https://github.com/shadowsocks/shadowsocks-android
 
 https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.0.9/Shadowsocks-4.0.9.zip
 
+## 四、开启BBR
+
+```shell
+echo 'net.core.default_qdisc=fq' | sudo tee -a /etc/sysctl.conf
+echo 'net.ipv4.tcp_congestion_control=bbr' | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+```
+
+验证
+
+```shell
+sudo sysctl net.ipv4.tcp_available_congestion_control
+# 输出应为 net.ipv4.tcp_available_congestion_control = bbr cubic reno
+sudo sysctl -n net.ipv4.tcp_congestion_control
+# 输出应为 bbr
+lsmod | grep bbr
+# 输出应类似 tcp_bbr  16384  28
+```
+
+
+
 
 
 
